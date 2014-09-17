@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SCTServiceWCF.Servicios.ControlBoletos" CodeBehind="ControlBoletos.svc.cs" %>
