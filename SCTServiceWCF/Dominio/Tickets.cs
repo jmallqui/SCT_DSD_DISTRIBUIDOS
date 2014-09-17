@@ -5,8 +5,7 @@ using System.Web;
 
 namespace SCTServiceWCF.Dominio
 {
-    public class Centros
+    public class Tickets
     {
-        //https://github.com/jmallqui/SCT_DSD_DISTRIBUIDOS.git
     }
 }

@@ -76,6 +76,7 @@
     <Compile Include="Dominio\Centros.cs" />
     <Compile Include="Dominio\Conductor.cs" />
     <Compile Include="Dominio\Empresa.cs" />
+    <Compile Include="Dominio\Tickets.cs" />
     <Compile Include="Dominio\Vehiculo.cs" />
     <Compile Include="Persistencia\BaseDAO.cs" />
     <Compile Include="Persistencia\ConexionUtil.cs" />
