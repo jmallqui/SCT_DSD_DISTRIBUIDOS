@@ -1,0 +1,10 @@
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\obj\Release\ResolveAssemblyReference.cache
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\bin\Release\ConsetturBussinessDataAccess.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\bin\Release\ConsetturBussinessDataAccess.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\bin\Release\ConsetturBussinessEntity.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\bin\Release\ConsetturCompartido.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\bin\Release\System.Data.SqlServerCe.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\bin\Release\ConsetturCompartido.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\bin\Release\ConsetturBussinessEntity.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\obj\Release\ConsetturBussinessDataAccess.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\obj\Release\ConsetturBussinessDataAccess.pdb

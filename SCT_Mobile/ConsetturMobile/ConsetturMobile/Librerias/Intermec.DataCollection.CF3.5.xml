@@ -1,0 +1,1022 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Intermec.DataCollection.CF3.5</name>
+    </assembly>
+    <members>
+        <member name="T:Intermec.DataCollection.BarcodeReadEventHandler">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Intermec.DataCollection.Device">
+            <summary>
+            Summary description for a device.
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.BarcodeReader.Read">
+            <summary>
+            The Read method reads a barcode 
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.BarcodeReader.Read(System.Int32)">
+            <summary>
+            The Read method reads a barcode 
+            same as read, only with a timeout parameter
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.BarcodeReader.CancelRead(System.Boolean)">
+            <summary>
+            CancelRead
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.BarcodeReader.SetAttribute(System.Byte,System.Byte)">
+            <summary>
+            SetAttribute
+            </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.BarcodeReader._ScannerOn">
+            <summary>
+            The ScannerOn property allows the scanner to be turned on (true) or off (false)
+            </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.BarcodeReader._ScannerEnable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.BarcodeReader._SymbologyMask">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.BarcodeReader._ContinuesScan">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.BarcodeReader.ThreadedRead(System.Boolean)">
+            <summary>
+            The ThreadedRead method reads a barcode in a different thread
+            </summary>
+            <param name="Auto">Used to indicate status.</param>
+        </member>
+        <member name="M:Intermec.DataCollection.BarcodeReader.DataBufferToString">
+            <summary>
+            returns the Databuffer as a unicode string
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.BarcodeReader.CheckForData">
+            <summary>
+            This is the worker thread that retrieves the messages in a loop. The worker thread
+            P/Invokes into unmanaged code to ITCSCAN_GetBarcodeMessage. This method will
+            be blocked until new (asynchronous) data is available. If data is available
+            and if we have a listener (event handler), we pass the data on. Note that
+            CheckForData remains active (in combination with the unmanaged DLL), even
+            if there are no listeners for data.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.BarcodeReader.SetActionOnNextDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.BarcodeReader.DataLED">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.BarcodeReader.ReadLED">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Intermec.DataCollection.BarcodeReaderException">
+            <summary>
+            Summary description for BarcodeReaderException.
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.BarcodeReaderException.#ctor(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="hResult"></param>
+            <param name="Message"></param>
+        </member>
+        <member name="T:Intermec.DataCollection.BarcodeReadEventArgs">
+            <summary>
+            Summary description for Class1.
+            </summary>
+        </member>
+        <member name="T:Intermec.DataCollection.DocumentCapture">
+            <summary>
+            Provides interface to display the document image. 
+            It allows users to make the document capture settings. 
+            </summary>
+            <remarks>
+            This class provides settings to allow edge detection of a document, and capture to a file with the following features.
+            <list type="bullet">
+            <item><term>Keystone effect removal</term></item>
+            <item><term>Auto Rotation to align document vertically</term></item>
+            <item><term>Document detection by contrast evaluation</term></item>
+            </list>
+            </remarks>
+        </member>
+        <member name="T:Intermec.ErrorHandling">
+            <summary>
+            Summary description for ErrorHandling.
+            </summary>
+            
+        </member>
+        <member name="T:Intermec.DataCollection.ImageConditioning">
+            <summary>
+            Common helper class for setting properties and filters for images created by Intermec imagers.
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.ImageConditioning.#ctor(System.Byte[],System.Int32,System.Byte,System.Byte)">
+            <summary>
+            
+            </summary>
+            <param name="InputSettingCommand"></param>
+            <param name="InputCommandSize"></param>
+            <param name="InputGID"></param>
+            <param name="InputFID"></param>
+            <exclude />
+        </member>
+        <member name="M:Intermec.DataCollection.ImageConditioning.ImageConditioningVersion(System.Int32@,System.Int32@)">
+            <summary>
+            Allows determining if Image Conditioning is available on this device and build, and what the version it is.
+            </summary>
+            <param name="num1">Major Version number X.</param>
+            <param name="num2">Minor Version number .X</param>
+            <returns>true = Image Conditioning available</returns>
+        </member>
+        <member name="M:Intermec.DataCollection.ImageConditioning.ImageConditioningAvailable">
+            <summary>
+            Allows determining if Image Conditioning is available on this device and build.
+            </summary>
+            <returns>true if Image Conditioning is available on this device and build combination.</returns>
+        </member>
+        <member name="P:Intermec.DataCollection.ImageConditioning.ContrastEnhancement">
+            <summary>
+            Enables filter that automatically adjusts brightness and contrast based on a grey level histogram.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.ImageConditioning.ImageRotation">
+            <summary>
+            Rotates picture clockwise in 90 degree increments.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.ImageConditioning.Subsampling">
+            <summary>
+            reduces image size and therefore transfer time, by averaging sets of pixels into one new pixel.
+            </summary>
+            <remarks>
+            includes horizontal and vertical grouping, so 1 of 2 would be 1/4 the as large as none.  1 of 8 = 1/64th etc.
+            </remarks>
+        </member>
+        <member name="P:Intermec.DataCollection.ImageConditioning.NoiseReduction">
+            <summary>
+            This property allows control of a low pass filter that can remove image noise.  
+            <para>The range is 0 to 9.  </para>
+            </summary>
+            <remarks>
+            Filtering may add some blur. 
+            0 is no noise reduction.  Values outside of this range will be limited to the edges of the range.
+            </remarks>
+        </member>
+        <member name="P:Intermec.DataCollection.ImageConditioning.ImageLightingCorrection">
+            <summary>
+            Causes use of a filter that attempts to adjust for inconsistent lighting across an image or document.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.ImageConditioning.Brightness">
+            <summary>
+            Modifies the default brightness of the image range is -100 to +100.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.ImageConditioning.ColorMode">
+            <summary>
+            Selects either Grayscale (default) or Black/White images.
+            </summary>
+            <remarks>
+            Black and white are commonly used for images containing text. The resulting image will be clearer and use less memory.
+            Use ColorModeValue parameters to adjust the binarisation threshold.  Normally used for pictures of text.
+            <note>
+            Monochrome choices only really work with TIFF.  Monochrome_Enhanced_TIFF_Quality causes an algorithm that doubles the file size
+            but generally produces a higher quality image. 
+            </note>
+            </remarks>
+        </member>
+        <member name="P:Intermec.DataCollection.ImageConditioning.ColorModeBrightnessThreshold">
+            <summary>
+            Only applies to TIFF, determines threshold of conversion VeryDark means light gray is converted to black.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.ImageConditioning.OutputCompression">
+            <summary>
+            Determines method of compression, JPEG is variable, TIFF converts to black and white, and BMP is uncompressed raw.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.ImageConditioning.OutputCompressionQuality">
+            <summary>
+            For JPEG only determines file compression 0 being most compressed, lowest quality.  100 = highest quality 0 compression.
+            </summary>
+        </member>
+        <member name="T:Intermec.DataCollection.ImageConditioning.TextEnhancementValue">
+            <summary>
+            Designed to make textual content more readable.  It can however increase the noise level.  
+            </summary>
+        </member>
+        <member name="T:Intermec.DataCollection.ImageConditioning.SubsamplingValue">
+            <summary>
+            Values to allow reducing size and transfer time of image by taking a filtered version where pixels removed
+            </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.ImageConditioning.SubsamplingValue.None">
+            <summary>Full content no subsampling </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.ImageConditioning.SubsamplingValue.OneOfTwo">
+            <summary>Returns image of every 2x2 square of pixels </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.ImageConditioning.SubsamplingValue.OneOfThree">
+            <summary>Returns image of one pixel for every 3x3 square of pixels </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.ImageConditioning.SubsamplingValue.OneOfFour">
+            <summary>Returns image of one pixel for every 4x4 square of pixels </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.ImageConditioning.SubsamplingValue.OneOfFive">
+            <summary>Returns image of one pixel for every 5x5 square of pixels </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.ImageConditioning.SubsamplingValue.OneOfSix">
+            <summary>Returns image of one pixel for every 6x6 square of pixels </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.ImageConditioning.SubsamplingValue.OneOfSeven">
+            <summary>Returns image of one pixel for every 7x7 square of pixels </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.ImageConditioning.SubsamplingValue.OneOfEight">
+            <summary>Returns image of one pixel for every 8x8 square of pixels </summary>
+        </member>
+        <member name="T:Intermec.DataCollection.ImageConditioning.ColorModeValue">
+            <summary>
+            Allows converting images from gray scale to black and white. 
+            </summary>
+            <remarks>
+            Commonly used for images containing text.  The converted image (any value except None) will be clearer and use
+            less memory.  
+            </remarks>
+        </member>
+        <member name="F:Intermec.DataCollection.ImageConditioning.ColorModeValue.None">
+            <summary>Gray scale, 8 bit/pixel use with BMP or JPEG files.</summary>	
+        </member>
+        <member name="F:Intermec.DataCollection.ImageConditioning.ColorModeValue.Monochrome_Normal">
+            <summary>Black and white, 1 bit/pixel use with TIFF files.</summary>	
+        </member>
+        <member name="F:Intermec.DataCollection.ImageConditioning.ColorModeValue.Monochrome_Enhanced_TIFF_Quality">
+            <summary>Black and white, 1 bit/pixel use with TIFF files, but interpolated to appear to have twice the pixel density.</summary>	
+        </member>
+        <member name="T:Intermec.DataCollection.Imager">
+             <summary>
+             Supports using imager as a simple camera (video streaming and snap shots).
+            (Intermec computers with Imager only)
+             </summary>
+            <remarks>
+            	 If your Intermec computer is equipped with an Imager, the Intermec.DataCollection.Imager class allows you to control selected Imager functions.
+            	 Any public static (Shared in Visual Basic) members of this type are safe for multi-threaded operations. Instance members are not guaranteed to be thread safe and each instance should be used only within a single thread.
+            		<para>Usage requires itcImager.dll which can be loaded directly, or installed by DC_NET.CAB</para>
+            	 </remarks>
+            	 <example>
+            	 The following snippet demonstrates creating an imager object and starting the video streaming.
+            	 <code>
+            	 public class Form1 : System.Windows.Forms.Form
+            	 {
+            		  private PictureBox pictureImager;
+            		  private System.Windows.Forms.MainMenu mainMenu1;
+            		  private Intermec.DataCollection.Imager img;
+            
+            		  public Form1()
+            		  {
+            				InitializeComponent();
+            				try
+            				{
+            					img = new Imager(this.pictureImager, Imager.PictureResolutionSize.Sixteenth);
+            					img.VideoRunning = true;
+            
+            					 //disable screen logo
+            					img.OnScreenLogo = Imager.OnScreenLogoType.Off;
+            	  
+             					if (img.ImageConditioningAvailable)
+            					{
+            						img.ImageConditioning.ContrastEnhancement = ImageConditioning.ContrastEnhancementValue.Photo;
+            					}
+            					else
+            					{
+            						img.EnhanceContrast = true;
+            					}
+            
+            				}
+            				catch (Exception exp)
+            				{
+            					 MessageBox.Show(exp.Message);
+            				}
+            		  }
+            	  ...
+            	  </code>
+            
+            	 </example>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.SnapShotConditioning">
+            <summary>
+            Provides an instance of the ImageConditioning class for setting conditioning for SnapShots.
+            </summary>
+            <remarks>
+            With certain versions of CN3 and later Intermec Computers, additional control is provided that also supports putting different
+            settings on SnapShots than the normal Imaging (streaming video).   This object is used to set those properties for snap shots.
+            In order to support legacy applications, some parameters that are passed into the snapshot function are used to set the 
+            appropriate SnapShot image conditioning properties.
+            <para>This field points to an object of the class ImageConditioning that allows setting those properties for snap shots.</para>
+            <para>The Imager class property <see cref="P:Intermec.DataCollection.Imager.ImageConditioningAvailable">ImageConditioningAvailable</see>
+            can be used to determine if the current device has image conditioning support.</para>
+            </remarks>
+            <seealso cref="F:Intermec.DataCollection.Imager.ImageConditioning"/>
+            <seealso cref="M:Intermec.DataCollection.Imager.SnapShot(System.String)"/>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.ImageConditioning">
+            <summary>
+            Provides an instance of the ImageConditioning class for setting conditioning for streaming video.
+            </summary>
+            <remarks>
+            With certain versions of CN3 and later Intermec Computers, additional control is provided over image quality.  Different
+            settings for normal Imaging (streaming video) as opposed to snapshots is also supported.   The object pointed to by this 
+            field is used to set the streaming video properties.
+            
+            <para>The Imager class property <see cref="P:Intermec.DataCollection.Imager.ImageConditioningAvailable">ImageConditioningAvailable</see> 
+            can be used to determine if the current device has image conditioning support.</para>
+            <note type="caution">The following properties are overwritten in this object.</note>
+            <list type="bullet">
+            <listheader><term>Property</term><description>Comments</description></listheader>
+            <item>
+            <term>OutputCompressionValue: </term>
+            <description>This property defines if the image is compressed when moving from the imager to the computer.  This choice is made by the software based 
+            on the Imager type, and its ability for high speed transfer.</description>
+            </item>
+            <item><term>OutputCompressionQuality:</term>
+            <description> Assuming that speed is more important than image quality for streaming video on the small screen, if JPEG compression is used to 
+            transfer the image, the quality is set to 50%</description></item>
+            <item>
+            <term>Subsampling:</term>
+            <description> For speed, is always set to OneOfEight for imaging.</description></item>
+            </list>
+            </remarks>
+            <seealso cref="F:Intermec.DataCollection.Imager.SnapShotConditioning"/>
+        </member>
+        <member name="M:Intermec.DataCollection.Imager.BeginInit">
+            <exclude />
+        </member>
+        <member name="M:Intermec.DataCollection.Imager.EndInit">
+            <exclude />
+        </member>
+        <member name="M:Intermec.DataCollection.Imager.ImagerInit(System.Windows.Forms.PictureBox,Intermec.DataCollection.Imager.PictureResolutionSize)">
+            <summary>
+            Imager init section
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.Imager.Finalize">
+            <summary>
+            Destructor, normally activated by the Dispose method.
+            </summary>
+            <exclude />
+        </member>
+        <member name="M:Intermec.DataCollection.Imager.Dispose">
+            <summary>
+            Destroys this object, and shuts down native code associated with imaging-gives back memory used.
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.Imager.Dispose(System.Boolean)">
+            <exclude />
+        </member>
+        <member name="M:Intermec.DataCollection.Imager.#ctor">
+            <summary>
+            Constructor using the default picture box and the default size (1 averaged pixel of 16)
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.Imager.#ctor(System.Windows.Forms.PictureBox)">
+            <summary>
+             Use specific Picture Box you created.
+            </summary>
+            <param name="Pb">Picture box to display streaming video in.</param>
+        </member>
+        <member name="M:Intermec.DataCollection.Imager.#ctor(System.Windows.Forms.PictureBox,Intermec.DataCollection.Imager.PictureResolutionSize)">
+            <summary>
+             Use specific Picture Box you created and allows setting of size of picture in input stream.
+            </summary>
+            <param name="Pb">Picture box to display streaming video in.</param>
+            <param name="size">Resolution size-Larger sizes slow down the stream.</param>
+        </member>
+        <member name="M:Intermec.DataCollection.Imager.isInvalidFileName(System.String)">
+            <summary>
+            checks path with filename string and indicates if any invalid characters in the name.
+            </summary>
+            <param name="path">path with file name in it</param>
+            <returns>TRUE if invalid character found.</returns>
+        </member>
+        <member name="M:Intermec.DataCollection.Imager.SnapShot(System.String)">
+            <summary>
+            Saves Image to a file.  NOTE: This is the overloaded call to use if setting other details with Image Conditioning.
+            </summary>
+            <param name="path">Full path and filename on the device.</param>
+            <remarks>Defaults to full resolution, and BMP type unless snapshot conditioning is allowed, and resolution or type are changed there.</remarks>
+        </member>
+        <member name="M:Intermec.DataCollection.Imager.SnapShot(System.String,Intermec.DataCollection.Imager.PictureResolutionSize)">
+            <summary>
+            Saves Image to a file, and allows setting resolution.
+            </summary>
+            <param name="path">Full path and filename on the device.</param>
+            <param name="Resolution">Set to resolution NOTE: this overrides image conditioning subsampling parameter.</param>
+            <remarks>Defaults to BMP type unless snapshot conditioning is allowed, and type is changed there.</remarks>
+        </member>
+        <member name="M:Intermec.DataCollection.Imager.SnapShot(System.String,Intermec.DataCollection.Imager.PictureResolutionSize,Intermec.DataCollection.Imager.FileModeType)">
+            <summary>
+            Saves Image to a file, and allows setting resolution and compression type.
+            </summary>
+            <param name="path">Full path and filename on the device.</param>
+            <param name="Resolution">subsamples to pass fewer pixels for speed. NOTE: This overrides image conditioning sub sampling parameter.</param>
+            <param name="FileType">Compression type of the file.  As in JPEG, BMP, or TIFF. </param>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.hResult">
+            <exclude />
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.VideoRunning">
+             <summary>
+             Enables streaming video to the Imager pictureBox
+             </summary>
+             <remarks>
+             true = Video is streamed to the pictureBox.
+            
+             false = (Default) Video is not streamed.
+             </remarks>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.ImageConditioningAvailable">
+            <summary>
+            Flag to indicate whether the conditioning objects SnapShotConditioning and ImageConditioning are available on this device.
+            </summary>
+            <remarks>Only certain devices such as the CN4 or CN50 having the EA21 imager support Image Conditioning
+            which provides advanced settings to improve image quality.
+            Since this can only be determined at runtime, code that uses the conditioning class properties should check this property to determine availability.
+            <para>The SnapShotConditioning and ImageConditioning object pointers will be null if the conditioning functionality is not available on the device the application is running on.</para>
+            </remarks>
+            <seealso cref="F:Intermec.DataCollection.Imager.SnapShotConditioning"/>
+            <seealso cref="F:Intermec.DataCollection.Imager.ImageConditioning"/>
+            <seealso cref="M:Intermec.DataCollection.Imager.SnapShot(System.String)"/>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.EnhanceContrast">
+            <summary>
+            Enables a photo enhancement algorithm.  Superceeded by ImageConditioning.ContrastEnhancement 
+            </summary>
+            <remarks>
+            If Image conditioning is available, using ContrastEnhancement will provide more options than this one.
+            If this property is set, it will modify ContrastEnhancement values if they were set.
+            </remarks>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.FlipPicture">
+            <summary>
+            Flips the picture upside down.  If Image Conditioning is available, Rotation can be used and provides more options.
+            </summary>
+            <remarks>Image flip is applied after the Image Conditioning Rotation, so generaly they should not both be used.</remarks>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.Brightness">
+            <summary>
+            Changes the Brightness of the image.  Applies to streaming video and SnapShots.  Image Conditioning brightness can be 
+            applied to each seperately but both Image Condition settings will be overwritten by this property.
+            </summary>
+            <remarks>
+            In order to have code written for devices that did not have image conditioning work with the image conditioning 
+            enabled devices, some legacy properties such as this one have been modified to set the equivelant value
+            in the ImageConditioning object.  The difference in range and offset of the values is accounted for in the conversion.
+            <para>If the Image Conditioning brightness properties are, used this property should not be set.</para>
+            </remarks>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.MirrorPicture">
+            <summary>
+            Flips the image along the vertical access.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.OnScreenInfo">
+            <summary>
+            For debug, turns on a display of information about the quality and speed of presentation of an image.  Not shown in snapshot.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.OnScreenDateTime">
+            <summary>
+            Identifies where the date and time is displayed on the screen, and inserted in the snapshot.
+            </summary>
+            <remarks>NOTE: Not supported for TIFF files.</remarks>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.OnScreenCaptionPosition">
+            <summary>
+             Identifies where the user defined caption is displayed on the screen, and inserted in the snapshot.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.OnScreenCaption">
+            <summary>
+             Sets the content of the caption that may be imbedded in images and snapshots.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.OnScreenDrawMode">
+            <summary>
+            Determines whether White characters on dark image, or black characters.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.OnScreenLogo">
+            <summary>
+            Enables or disables showing the Intermec Logo in the image on startup.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.SetIllumOn">
+            <summary>
+            Controls LEDs for illuminating the imager view area.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.SetAimerOn">
+            <summary>
+            Controls the display of a spotter beam or imager area outline lines which painted for certain imagers.  Not supported for all imagers.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.LightMode">
+            <summary>
+            Controls light approach between aperture and LEDs allowing.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.ImagerMode">
+            <summary>
+            Determines whether settings optimized for imaging or barcode decoding.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.LightGoal">
+            <summary>
+            Controls desired brightness of image-trade off between focus sensitivity and brightness. range 20-200
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.IllumLevel">
+            <summary>
+            Adjusts brightness as a ratio of available lighting from imager LEDS. On some devices range is 0..15, on others 0..64.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.AimerFlashing">
+            <summary>
+            Allows having the Aimer turn off briefly during image acquasition time.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.IllumFlashing">
+            <summary>
+            Determines if illumination is constant or only on during frame acquisition.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Imager.Preset">
+            <summary>
+            Sets the imager to a specific mode. Each mode may include settings that are optimized for a particular environment.
+            </summary>
+        </member>
+        <member name="T:Intermec.DataCollection.Imager.PictureResolutionSize">
+            <summary>
+            Identifies how much detail is in the picture.  Less is faster for the streaming video.  This can be over-ridden for 
+            snapshots.  For devices with image conditioning, can use subsampling with flexibility.
+            </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.PictureResolutionSize.Full">
+            <summary>Full picture with no sub sampling.</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.PictureResolutionSize.Quarter">
+            <summary>returns averaged pixel for each 4 pixel group.</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.PictureResolutionSize.Sixteenth">
+            <summary>returns averaged pixel for each 16 pixel group.</summary>
+        </member>
+        <member name="T:Intermec.DataCollection.Imager.ImagerLightModeType">
+             <summary>
+             Chooses the preferred mode for achieving the desired exposure.
+             </summary>
+             <remarks>Exposure is a function of two parameters: the imager aperture and the LEDs used to light the surface.
+            </remarks>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.ImagerLightModeType.LedMode">
+            <summary>depricated- same as IllumLedPriority</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.ImagerLightModeType.IllumLedPriority">
+            <summary>Uses LEDS in rather than opening aperture to lighten image.</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.ImagerLightModeType.LightMode">
+            <summary>depricated- same as AperturePriority</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.ImagerLightModeType.AperturePriority">
+            <summary>Opens Aperture before using LEDS to achieve lightnes goal</summary>
+        </member>
+        <member name="T:Intermec.DataCollection.Imager.FileModeType">
+            <summary>
+            Determines compression format of saved file.
+            </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.FileModeType.BMP">
+            <summary>Saves the snapshot as a BMP file </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.FileModeType.JPG">
+            <summary>Saves the snapshot as a JPEG file </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.FileModeType.RAWMEM">
+            <summary>Saves the snapshot as a Raw Pixels file </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.FileModeType.TIFF">
+            <summary>Saves the snapshot as a TIFF file. Only available with Image Conditioning capability.  </summary>
+        </member>
+        <member name="T:Intermec.DataCollection.Imager.ImagerModeType">
+            <summary>
+            Chooses imager setting preference between Imaging and Barcoding.
+            </summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.ImagerModeType.Barcoding">
+            <summary>Imager settings are optimized for reading bar codes.</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.ImagerModeType.Imaging">
+            <summary>Imager settings are optimized for image capture (default).</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenDateTimePos.Disabled">
+            <summary>Date and time will not be displayed in the streaming video or the snapshot</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenDateTimePos.LowerRight">
+            <summary>Date and time will be displayed in the lower right corner of the streaming video or the snapshot</summary>			
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenDateTimePos.LowerLeft">
+            <summary>Date and time will be displayed in the lower left corner of the streaming video or the snapshot</summary>			
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenDateTimePos.UpperRight">
+            <summary>Date and time will be displayed in the upper right corner of the streaming video or the snapshot</summary>			
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenDateTimePos.UpperLeft">
+            <summary>Date and time will be displayed in the upper left corner of the streaming video or the snapshot</summary>			
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenCaptionPos.Disabled">
+            <summary>Developer created caption will not be displayed in the streaming video or the snapshot</summary>			
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenCaptionPos.LowerRight">
+            <summary>Developer created caption  will be displayed in the lower right corner of the streaming video or the snapshot</summary>			
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenCaptionPos.LowerLeft">
+            <summary>Developer created caption  will be displayed in the lower left corner of the streaming video or the snapshot</summary>			
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenCaptionPos.LowerCenter">
+            <summary>Developer created caption  will be displayed in the lower center of the streaming video or the snapshot</summary>			
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenCaptionPos.UpperRight">
+            <summary>Developer created caption  will be displayed in the upper right corner of the streaming video or the snapshot</summary>			
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenCaptionPos.UpperLeft">
+            <summary>Developer created caption  will be displayed in the upper left corner of the streaming video or the snapshot</summary>			
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenCaptionPos.UpperCenter">
+            <summary>Developer created caption  will be displayed in the upper center of the streaming video or the snapshot</summary>			
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenCaptionPos.Center">
+            <summary>Developer created caption  will be displayed in the center of the streaming video or the snapshot</summary>			
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenDrawModeType.Black">
+            <summary>Black characters on light background</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnscreenDrawModeType.White">
+            <summary>White characters on dark background</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.PresetMode.Standard_1D_Only">
+            <summary>Optimizes the imager for reading 1D bar codes</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.PresetMode.Standard_1D_2D">
+            <summary>Optimizes the imager for reading 1D and 2D bar codes</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.PresetMode.BrightEnvironment_1D_2D">
+            <summary>Optimizes the imager for reading 1D and 2D bar codes in bright light</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.PresetMode.ReflectiveSurface_1D_2D">
+            <summary>Optimizes the imager for reading 1D and 2D bar codes on reflective surfaces</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.AimerFlashingMode.AlwaysOn">
+            <summary>Aimer remains on while image being captured</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.AimerFlashingMode.Auto">
+            <summary>Aimer flashes off while image being captured</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.IllumFlashingMode.AlwaysOn">
+            <summary>Illumination always on.</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.IllumFlashingMode.Auto">
+            <summary>Illumination flashes on while image being captured</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnScreenLogoType.On">
+            <summary>Allows brief display of Intermec logo when streaming starts</summary>
+        </member>
+        <member name="F:Intermec.DataCollection.Imager.OnScreenLogoType.Off">
+            <summary>Inhibits display of Intermec logo when streaming starts</summary>
+        </member>
+        <member name="T:Intermec.DataCollection.ImagerException">
+            <summary>
+            Summary description for BarcodeReaderException.
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.ImagerException.#ctor(System.Int32,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ImagerException"/> class.
+            </summary>
+            <param name="hResult">The h result.</param>
+            <param name="Message">The message.</param>
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._Mode">
+            ----------------------------------------------------------------------------------------------------------------		  
+            <summary>
+            Select the mode for the current scenario. When active, two modes are available.
+            With the first one, the area to capture is defined by settings relative to the 
+            size and position of the barcode label. The second one use specific patterns to 
+            determine the area to capture. When one of these two mode is enabled, a barcode 
+            read will trigger the current signature capture scenario if the barcode identifier,
+            barcode length and barcode mask conditions are satisfied.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._BarcodeIdentifier">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Select the barcode identifier which triggers the signature capture scenario. If null,
+            this condition will be satisfied whatever the barcode identifier read.
+            Up to now, only these symbologies are supported: EAN/UPC, ITF, Code128/EAN128, Code 93,
+            PDF417, Datamatix, Code QR, Maxicode.
+            </summary>
+            
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._BarcodeLength">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Select the barcode length which triggers the signature capture scenario. If null,
+            this condition will be satisfied whatever the barcode length read.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._BarcodeMask">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Select the barcode mask which triggers the signature capture scenario. If empty,
+            this condition will be satisfied whatever the barcode data read.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._BarcodeWidth">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Width of the barcode. This setting is useless with the framing patterns mode.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._BarcodeHeight">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Height of the barcode. This setting is useless with the framing patterns mode.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._HorizontalOffset">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Horizontal offset from the center of the barcode to the center of the area to capture.
+            This value may be negative (encoded in two’s complement). This setting is useless
+            with the framing patterns mode.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._VerticalOffset">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Vertical offset from the center of the barcode to the center of the area to capture.
+            This value may be negative (encoded in two’s complement). This setting is useless
+            with the framing patterns mode.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._AreaWidth">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Width of the area to capture. This setting is useless with the framing patterns mode.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._AreaHeight">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Height of the area to capture. This setting is useless with the framing patterns mode.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._AutomaticCorrection">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            This feature extracts horizontal and vertical lines from the image and uses them to correct
+            accordingly the captured area. This setting is useless with the framing patterns mode.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._FocusCheck">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            This setting is useful to reject blur signature capture.
+            The focus check is performed on the barcode label.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._ImageRatioCheck">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            This setting forces the capture image to have enough pixels compared to
+            the source image. In other words, it limits the usable depth of field.
+            More this value is high (0 to 100%), more the depth of field is limited.
+            A value of 50% means that the area to capture must be higher or equal the
+            half of the image (in pixels number).
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._ProjectiveMappingResolution">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            When disabled, there is no projective mapping, and the system returns the
+            smallest rectangle image which contains the area to capture.
+            When set to automatic, the projective mapping is active, and the resolution
+            used is automatically adjusted.
+            A fixed resolution is useful to have always the same size for the captured area.
+            When using a fixed resolution, if the captured image is bigger than the original
+            image, an Signature capture failure event is sent with the “Invalid parameters” failure code.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._OutputFormat">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            This setting enables the binarization of the captured image using an adaptive threshold
+            (white and black only). The Binary process is performed after the contrast enhancement,
+            filtering and edge enhancement processes.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._OutputCompression">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            This setting allows to decrease the image size with a configurable quality setting.
+            When the JPEG compression is used, the output buffer is a JFIF byte stream which can
+            be directly stored on hard drive and can be read by any JPEG reader.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._QualitySetting">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            This setting defines the quality desired for the compression used. When no compression 
+            is used, this setting is useless. Higher is this setting, better is the image quality.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._ContrastEnhancement">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Also known as “Dynamic stretching”, this setting allow the enhancement of the contrast. 
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._Sharpening">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Also know as “Sharpening”, this setting allows the enhancement of the edges of the
+            object in the image. It may enhance the readability of text reading.
+            The edge enhancement process is performed after the filtering process.
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._Filtering">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            This setting may be useful to reduce the noise resulting from the edge enhancement
+            process. If set to 0, this filtering stage is disabled. Higher is the setting, higher
+            is the filter. The filtering process is performed after the contrast enhancement process. 
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._Filename">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Filename:  The filename that will be used to save the captured image
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._filePad">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Filepadding:  property that indicates the type of padding (none/counter/datetime)
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._FileOutputFormat">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Filetype:  property that indicates the file format  (bmp/jpg)
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._DateTimePosition">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Filetype:  property that indicates the position of a datetime stamp
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._CaptionPosition">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Filetype:  property that indicates the position of a caption stamp
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:Intermec.DataCollection.scenario._CaptionString">
+            ----------------------------------------------------------------------------------------------------------------
+            <summary>
+            Filetype:  property that indicates the position of a caption stamp
+            </summary>
+            ----------------------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:Intermec.DataCollection.SignatureCapture2.Dispose">
+            <summary>
+            Dispose section
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.SignatureCapture2.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:Intermec.DataCollection.SignatureCaptureException">
+            <summary>
+            Summary description for SignatureCaptureException.
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.SignatureCaptureException.#ctor(System.Int32,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SignatureCaptureException"/> class.
+            </summary>
+            <param name="hResult">The h result.</param>
+            <param name="Message">The message.</param>
+        </member>
+        <member name="T:Intermec.DataCollection.SymbologyException">
+            <summary>
+            Summary description for BarcodeReaderException.
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.SymbologyException.#ctor(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="hResult"></param>
+            <param name="Message"></param>
+        </member>
+        <member name="M:Intermec.DataCollection.SymbologyOptionsException.#ctor(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="hResult"></param>
+            <param name="Message"></param>
+        </member>
+        <member name="T:Intermec.DataCollection.utilities">
+            <summary>
+            Summary description for utilities.
+            </summary>
+        </member>
+        <member name="T:Intermec.DataCollection.VirtualWedgeException">
+            <summary>
+            Summary description for BarcodeReaderException.
+            </summary>
+        </member>
+        <member name="M:Intermec.DataCollection.VirtualWedgeException.#ctor(System.Int32,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:VirtualWedgeException"/> class.
+            </summary>
+            <param name="hResult">The h result.</param>
+            <param name="Message">The message.</param>
+        </member>
+        <member name="T:Intermec.DataCollection.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Intermec.DataCollection.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

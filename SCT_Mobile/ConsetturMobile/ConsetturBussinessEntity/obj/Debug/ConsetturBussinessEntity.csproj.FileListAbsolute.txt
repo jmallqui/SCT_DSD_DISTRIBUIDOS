@@ -1,0 +1,25 @@
+F:\Steph\ConsetturMobile\ConsetturBussinessEntity\bin\Debug\ConsetturBussinessEntity.dll
+F:\Steph\ConsetturMobile\ConsetturBussinessEntity\bin\Debug\ConsetturBussinessEntity.pdb
+F:\Steph\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ResolveAssemblyReference.cache
+F:\Steph\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ConsetturBussinessEntity.dll
+F:\Steph\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ConsetturBussinessEntity.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessEntity\bin\Debug\ConsetturBussinessEntity.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessEntity\bin\Debug\ConsetturBussinessEntity.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ConsetturBussinessEntity.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ConsetturBussinessEntity.pdb
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessEntity\bin\Debug\ConsetturBussinessEntity.dll
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessEntity\bin\Debug\ConsetturBussinessEntity.pdb
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ResolveAssemblyReference.cache
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ConsetturBussinessEntity.dll
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ConsetturBussinessEntity.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessEntity\bin\Debug\ConsetturBussinessEntity.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessEntity\bin\Debug\ConsetturBussinessEntity.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ConsetturBussinessEntity.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ConsetturBussinessEntity.pdb
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessEntity\bin\Debug\ConsetturBussinessEntity.dll
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessEntity\bin\Debug\ConsetturBussinessEntity.pdb
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ResolveAssemblyReference.cache
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ConsetturBussinessEntity.dll
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessEntity\obj\Debug\ConsetturBussinessEntity.pdb

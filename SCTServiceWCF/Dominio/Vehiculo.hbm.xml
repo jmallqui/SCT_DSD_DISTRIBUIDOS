@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="SCTServiceWCF"
+                   namespace="SCTServiceWCF.Dominio"
+                   default-lazy="false">
+  <class name="Vehiculo" table="T_SCT_VEHICULOS">
+    <id name="ID_VEHICULO" column="ID_VEHICULO">
+      <generator class="native" />
+    </id>
+    <property name="PLACA" column="PLACA" />
+    <property name="MODELO" column="MODELO" />
+    <property name="MARCA" column="MARCA" />
+    <property name="ANNIO_FABRICACION" column="ANNIO_FABRICACION" />
+    <property name="NRO_UNIDAD" column="NRO_UNIDAD" />
+    <property name="ID_EMPRESA" column="ID_EMPRESA" />
+  </class>
+</hibernate-mapping>
+

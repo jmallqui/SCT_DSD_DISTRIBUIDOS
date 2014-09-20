@@ -1,0 +1,250 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56B0AD6F-711D-419B-9714-70A6CA0994AC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsetturMobile</RootNamespace>
+    <AssemblyName>ConsetturMobile</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.2</OSVersion>
+    <DeployDirSuffix>ConsetturMobile</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <ApplicationIcon>SCT.ico</ApplicationIcon>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermec.DataCollection.CF3.5, Version=4.2.0.1785, Culture=neutral, PublicKeyToken=acd169b56b6148ba, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="Resco.CustomKeyboard.CF3, Version=6.12.0.1, Culture=neutral, PublicKeyToken=7444f602060105f9, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseDatos\ConsetturDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConsetturDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\clsConfiguracion.cs" />
+    <Compile Include="Clases\clsNumero.cs" />
+    <Compile Include="Clases\clsSonido.cs" />
+    <Compile Include="Clases\clsUtil.cs" />
+    <Compile Include="Clases\clsComentado.cs" />
+    <Compile Include="Formulario\frmAcceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\frmAcceso.Designer.cs">
+      <DependentUpon>frmAcceso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\frmConfiguracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\frmConfiguracion.Designer.cs">
+      <DependentUpon>frmConfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\frmConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\frmConsulta.Designer.cs">
+      <DependentUpon>frmConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\frmControlTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\frmControlTicket.Designer.cs">
+      <DependentUpon>frmControlTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorBaseDatos\ConnectionStateChangedEventArgs.cs" />
+    <Compile Include="MonitorBaseDatos\DatabaseMonitor.cs" />
+    <Compile Include="MonitorBaseDatos\ErrorEventArgs.cs" />
+    <Compile Include="Clases\Program.cs" />
+    <Compile Include="MonitorBaseDatos\frmMonitorBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formulario\frmAcceso.resx">
+      <DependentUpon>frmAcceso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\frmConfiguracion.resx">
+      <DependentUpon>frmConfiguracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\frmConsulta.resx">
+      <DependentUpon>frmConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\frmControlTicket.resx">
+      <DependentUpon>frmControlTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Web References\wsConsettur\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BaseDatos\SCT.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Barrita.ico" />
+    <Content Include="Image\logo.png" />
+    <Content Include="Image\logoNegro2.png" />
+    <Content Include="Image\SCT.ico" />
+    <Content Include="Librerias\Intermec.DataCollection.CF3.5.dll" />
+    <Content Include="Librerias\Intermec.DataCollection.CF3.5.xml" />
+    <Content Include="SCT.ico" />
+    <Content Include="Sonidos\Error_.wav" />
+    <Content Include="Sonidos\Offline.wav" />
+    <Content Include="Sonidos\Online.wav" />
+    <Content Include="Sonidos\Error.wav" />
+    <None Include="Web References\wsConsettur\wsMobile.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://172.16.12.6/WS_SCT/WsMobile.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\wsConsettur\</RelPath>
+      <UpdateFromURL>http://172.16.12.6/WS_SCT/WsMobile.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BaseDatos\ConsetturDataSet.xsc">
+      <DependentUpon>ConsetturDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BaseDatos\ConsetturDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConsetturDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BaseDatos\ConsetturDataSet.xss">
+      <DependentUpon>ConsetturDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Web References\wsConsettur\Conductor.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsConsettur\Mensaje.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsConsettur\OtrosPasajeros.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsConsettur\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\wsConsettur\ResumenLectura.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsConsettur\TicketDetalle.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsConsettur\Transaccion.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsConsettur\TransaccionDetalleVarios.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsConsettur\Usuario.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsConsettur\Vehiculo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsConsettur\wsMobile.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConsetturBussinessEntity\ConsetturBussinessEntity.csproj">
+      <Project>{8C99B944-F1CE-4978-A0A7-1ADEA0792387}</Project>
+      <Name>ConsetturBussinessEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConsetturBussinessLogic\ConsetturBussinessLogic.csproj">
+      <Project>{C965CB9F-FC54-42C0-ADC2-2BAB2EF40828}</Project>
+      <Name>ConsetturBussinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConsetturCompartido\ConsetturCompartido.csproj">
+      <Project>{3995E225-BD9F-4308-9ACB-0ED9193D0C82}</Project>
+      <Name>ConsetturCompartido</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

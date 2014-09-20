@@ -1,0 +1,50 @@
+F:\Steph\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessDataAccess.dll
+F:\Steph\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessDataAccess.pdb
+F:\Steph\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessEntity.dll
+F:\Steph\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturCompartido.dll
+F:\Steph\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\System.Data.SqlServerCe.dll
+F:\Steph\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturCompartido.pdb
+F:\Steph\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessEntity.pdb
+F:\Steph\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\Steph\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ConsetturBussinessDataAccess.dll
+F:\Steph\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ConsetturBussinessDataAccess.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessDataAccess.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessDataAccess.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessEntity.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturCompartido.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\System.Data.SqlServerCe.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturCompartido.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessEntity.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ConsetturBussinessDataAccess.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ConsetturBussinessDataAccess.pdb
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessDataAccess.dll
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessDataAccess.pdb
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessEntity.dll
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturCompartido.dll
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\System.Data.SqlServerCe.dll
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturCompartido.pdb
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessEntity.pdb
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ConsetturBussinessDataAccess.dll
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ConsetturBussinessDataAccess.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessDataAccess.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessDataAccess.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessEntity.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturCompartido.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\System.Data.SqlServerCe.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturCompartido.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessEntity.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ConsetturBussinessDataAccess.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ConsetturBussinessDataAccess.pdb
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessDataAccess.dll
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessDataAccess.pdb
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessEntity.dll
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturCompartido.dll
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\System.Data.SqlServerCe.dll
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturCompartido.pdb
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessEntity.pdb
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ConsetturBussinessDataAccess.dll
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ConsetturBussinessDataAccess.pdb

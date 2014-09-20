@@ -10,6 +10,6 @@
 		<property name="EMPRESA" column="EMPRESA" />
 		<property name="RUC" column="RUC" />
 		<property name="TELEFONO" column="TELEFONO" />
-		<property name="DIRECCION" column="DIRECCION" />
+		<property name="DIRECCION" column="DIRECCION" />   
 	</class>
 </hibernate-mapping>

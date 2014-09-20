@@ -1,0 +1,5 @@
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessEntity\bin\Release\ConsetturBussinessEntity.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessEntity\bin\Release\ConsetturBussinessEntity.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessEntity\obj\Release\ResolveAssemblyReference.cache
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessEntity\obj\Release\ConsetturBussinessEntity.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturBussinessEntity\obj\Release\ConsetturBussinessEntity.pdb

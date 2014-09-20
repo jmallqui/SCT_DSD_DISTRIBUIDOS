@@ -1,0 +1,20 @@
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\TestEmpresaService.dll
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\TestEmpresaService.pdb
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\obj\Debug\ResolveAssemblyReference.cache
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\obj\Debug\TestEmpresaService.dll
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\obj\Debug\TestEmpresaService.pdb
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\TestEmpresaService.dll.config
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\SCTServiceWCF.dll
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\NHibernate.dll
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\Iesi.Collections.dll
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\SCTServiceWCF.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.dll.config
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\SCTServiceWCF.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\NHibernate.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\Iesi.Collections.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\SCTServiceWCF.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.csprojResolveAssemblyReference.cache
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.pdb

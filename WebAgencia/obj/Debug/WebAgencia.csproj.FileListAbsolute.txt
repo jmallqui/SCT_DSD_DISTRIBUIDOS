@@ -6,3 +6,8 @@ G:\Juan Mallqui Proyectos\JUAN MALLQUI\UPC\DSD\WebAgencia\WebAgencia\WebAgencia\
 G:\Juan Mallqui Proyectos\JUAN MALLQUI\UPC\DSD\WebAgencia\WebAgencia\WebAgencia\bin\WebAgencia.pdb
 G:\Juan Mallqui Proyectos\JUAN MALLQUI\UPC\DSD\WebAgencia\WebAgencia\WebAgencia\obj\Debug\WebAgencia.dll
 G:\Juan Mallqui Proyectos\JUAN MALLQUI\UPC\DSD\WebAgencia\WebAgencia\WebAgencia\obj\Debug\WebAgencia.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\WebAgencia\bin\WebAgencia.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\WebAgencia\bin\WebAgencia.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\WebAgencia\obj\Debug\WebAgencia.csprojResolveAssemblyReference.cache
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\WebAgencia\obj\Debug\WebAgencia.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\WebAgencia\obj\Debug\WebAgencia.pdb

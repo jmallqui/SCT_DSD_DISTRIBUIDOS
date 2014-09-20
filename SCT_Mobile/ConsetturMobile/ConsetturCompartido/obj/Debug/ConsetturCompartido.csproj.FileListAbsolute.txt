@@ -1,0 +1,25 @@
+F:\Steph\ConsetturMobile\ConsetturCompartido\bin\Debug\ConsetturCompartido.dll
+F:\Steph\ConsetturMobile\ConsetturCompartido\bin\Debug\ConsetturCompartido.pdb
+F:\Steph\ConsetturMobile\ConsetturCompartido\obj\Debug\ResolveAssemblyReference.cache
+F:\Steph\ConsetturMobile\ConsetturCompartido\obj\Debug\ConsetturCompartido.dll
+F:\Steph\ConsetturMobile\ConsetturCompartido\obj\Debug\ConsetturCompartido.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturCompartido\bin\Debug\ConsetturCompartido.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturCompartido\bin\Debug\ConsetturCompartido.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturCompartido\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturCompartido\obj\Debug\ConsetturCompartido.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturCompartido\obj\Debug\ConsetturCompartido.pdb
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturCompartido\bin\Debug\ConsetturCompartido.dll
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturCompartido\bin\Debug\ConsetturCompartido.pdb
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturCompartido\obj\Debug\ResolveAssemblyReference.cache
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturCompartido\obj\Debug\ConsetturCompartido.dll
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturCompartido\obj\Debug\ConsetturCompartido.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturCompartido\bin\Debug\ConsetturCompartido.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturCompartido\bin\Debug\ConsetturCompartido.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturCompartido\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturCompartido\obj\Debug\ConsetturCompartido.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturCompartido\obj\Debug\ConsetturCompartido.pdb
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturCompartido\bin\Debug\ConsetturCompartido.dll
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturCompartido\bin\Debug\ConsetturCompartido.pdb
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturCompartido\obj\Debug\ResolveAssemblyReference.cache
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturCompartido\obj\Debug\ConsetturCompartido.dll
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturCompartido\obj\Debug\ConsetturCompartido.pdb

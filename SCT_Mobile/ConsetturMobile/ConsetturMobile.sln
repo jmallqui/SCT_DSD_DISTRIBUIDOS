@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsetturMobile", "ConsetturMobile\ConsetturMobile.csproj", "{56B0AD6F-711D-419B-9714-70A6CA0994AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsetturBussinessEntity", "ConsetturBussinessEntity\ConsetturBussinessEntity.csproj", "{8C99B944-F1CE-4978-A0A7-1ADEA0792387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsetturBussinessDataAccess", "ConsetturBussinessDataAccess\ConsetturBussinessDataAccess.csproj", "{D69D70F5-A746-49A8-ABD5-3BB0EB49D5D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsetturCompartido", "ConsetturCompartido\ConsetturCompartido.csproj", "{3995E225-BD9F-4308-9ACB-0ED9193D0C82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsetturBussinessLogic", "ConsetturBussinessLogic\ConsetturBussinessLogic.csproj", "{C965CB9F-FC54-42C0-ADC2-2BAB2EF40828}"
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "Setup_Consettur", "Setup_Consettur\Setup_Consettur.vddproj", "{160ADE4B-6293-4B2D-8F57-BE16DFF75E98}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://antares:8080/tfs/soltec%20peru
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ConsetturBussinessDataAccess\\ConsetturBussinessDataAccess.csproj
+		SccProjectName1 = ConsetturBussinessDataAccess
+		SccLocalPath1 = ConsetturBussinessDataAccess
+		SccProjectUniqueName2 = ConsetturBussinessEntity\\ConsetturBussinessEntity.csproj
+		SccProjectName2 = ConsetturBussinessEntity
+		SccLocalPath2 = ConsetturBussinessEntity
+		SccProjectUniqueName3 = ConsetturBussinessLogic\\ConsetturBussinessLogic.csproj
+		SccProjectName3 = ConsetturBussinessLogic
+		SccLocalPath3 = ConsetturBussinessLogic
+		SccProjectUniqueName4 = ConsetturCompartido\\ConsetturCompartido.csproj
+		SccProjectName4 = ConsetturCompartido
+		SccLocalPath4 = ConsetturCompartido
+		SccProjectUniqueName5 = ConsetturMobile\\ConsetturMobile.csproj
+		SccProjectName5 = ConsetturMobile
+		SccLocalPath5 = ConsetturMobile
+		SccProjectUniqueName6 = Setup_Consettur\\Setup_Consettur.vddproj
+		SccProjectName6 = Setup_Consettur
+		SccLocalPath6 = Setup_Consettur
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56B0AD6F-711D-419B-9714-70A6CA0994AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B0AD6F-711D-419B-9714-70A6CA0994AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B0AD6F-711D-419B-9714-70A6CA0994AC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{56B0AD6F-711D-419B-9714-70A6CA0994AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B0AD6F-711D-419B-9714-70A6CA0994AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B0AD6F-711D-419B-9714-70A6CA0994AC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8C99B944-F1CE-4978-A0A7-1ADEA0792387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C99B944-F1CE-4978-A0A7-1ADEA0792387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C99B944-F1CE-4978-A0A7-1ADEA0792387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C99B944-F1CE-4978-A0A7-1ADEA0792387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D69D70F5-A746-49A8-ABD5-3BB0EB49D5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69D70F5-A746-49A8-ABD5-3BB0EB49D5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69D70F5-A746-49A8-ABD5-3BB0EB49D5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69D70F5-A746-49A8-ABD5-3BB0EB49D5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3995E225-BD9F-4308-9ACB-0ED9193D0C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3995E225-BD9F-4308-9ACB-0ED9193D0C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3995E225-BD9F-4308-9ACB-0ED9193D0C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3995E225-BD9F-4308-9ACB-0ED9193D0C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C965CB9F-FC54-42C0-ADC2-2BAB2EF40828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C965CB9F-FC54-42C0-ADC2-2BAB2EF40828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C965CB9F-FC54-42C0-ADC2-2BAB2EF40828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C965CB9F-FC54-42C0-ADC2-2BAB2EF40828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160ADE4B-6293-4B2D-8F57-BE16DFF75E98}.Debug|Any CPU.ActiveCfg = Debug
+		{160ADE4B-6293-4B2D-8F57-BE16DFF75E98}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

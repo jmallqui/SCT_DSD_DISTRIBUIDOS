@@ -1,0 +1,142 @@
+F:\Steph\ConsetturMobile\ConsetturMobile\obj\Debug\ResolveAssemblyReference.cache
+F:\Steph\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmAcceso.resources
+F:\Steph\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmConfiguracion.resources
+F:\Steph\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmConsulta.resources
+F:\Steph\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmControlTicket.resources
+F:\Steph\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmOtros.resources
+F:\Steph\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmSincronizar.resources
+F:\Steph\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.Properties.Resources.resources
+F:\Steph\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.csproj.GenerateResource.Cache
+F:\Steph\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.exe
+F:\Steph\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturMobile.exe
+F:\Steph\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturMobile.pdb
+F:\Steph\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessEntity.dll
+F:\Steph\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessLogic.dll
+F:\Steph\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturCompartido.dll
+F:\Steph\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessDataAccess.dll
+F:\Steph\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessEntity.pdb
+F:\Steph\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessDataAccess.pdb
+F:\Steph\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessLogic.pdb
+F:\Steph\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturCompartido.pdb
+F:\Steph\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturMobile.exe
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturMobile.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessEntity.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessLogic.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturCompartido.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\bin\Debug\Resco.CustomKeyboard.CF3.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessDataAccess.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\bin\Debug\Resco.CustomKeyboard.CF3.xml
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessEntity.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessDataAccess.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessLogic.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturCompartido.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmAcceso.resources
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmConfiguracion.resources
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmConsulta.resources
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmControlTicket.resources
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmOtros.resources
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmSincronizar.resources
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.Properties.Resources.resources
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.csproj.GenerateResource.Cache
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.exe
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\Movil\ConsetturMobile\ConsetturMobile\bin\Debug\BaseDatos\SCT.sdf
+F:\Steph\ConsetturMobile\ConsetturMobile\bin\Debug\BaseDatos\SCT.sdf
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\bin\Debug\BaseDatos\SCT.sdf
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturMobile.exe
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturMobile.pdb
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessEntity.dll
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessLogic.dll
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturCompartido.dll
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\bin\Debug\Resco.CustomKeyboard.CF3.dll
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessDataAccess.dll
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\bin\Debug\Resco.CustomKeyboard.CF3.xml
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessEntity.pdb
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessDataAccess.pdb
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessLogic.pdb
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturCompartido.pdb
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\obj\Debug\ResolveAssemblyReference.cache
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmAcceso.resources
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmConfiguracion.resources
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmConsulta.resources
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmControlTicket.resources
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmOtros.resources
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmSincronizar.resources
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.Properties.Resources.resources
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.csproj.GenerateResource.Cache
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.exe
+D:\Juan Mallqui Proyectos\CONSETTUR\smachado\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\bin\Debug\BaseDatos\SCT.sdf
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturMobile.exe
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturMobile.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessEntity.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessLogic.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturCompartido.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\bin\Debug\Resco.CustomKeyboard.CF3.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessDataAccess.dll
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\bin\Debug\Resco.CustomKeyboard.CF3.xml
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessEntity.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessDataAccess.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessLogic.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturCompartido.pdb
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmAcceso.resources
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmConfiguracion.resources
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmConsulta.resources
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmControlTicket.resources
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmOtros.resources
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmSincronizar.resources
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.Properties.Resources.resources
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.csproj.GenerateResource.Cache
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.exe
+C:\Proyectos Cipsa\CONSETTUR\Móvil\mobilecst\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.pdb
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\bin\Debug\BaseDatos\SCT.sdf
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturMobile.exe
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturMobile.pdb
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessEntity.dll
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessLogic.dll
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturCompartido.dll
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\bin\Debug\Resco.CustomKeyboard.CF3.dll
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessDataAccess.dll
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\bin\Debug\Resco.CustomKeyboard.CF3.xml
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessEntity.pdb
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturCompartido.pdb
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessDataAccess.pdb
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessLogic.pdb
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmAcceso.resources
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmConfiguracion.resources
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmConsulta.resources
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmControlTicket.resources
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmOtros.resources
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.Formulario.frmRecorridoBus.resources
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmSincronizar.resources
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.Properties.Resources.resources
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.csproj.GenerateResource.Cache
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.exe
+C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmAcceso.resources
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmConfiguracion.resources
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmConsulta.resources
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.frmControlTicket.resources
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.Properties.Resources.resources
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.csproj.GenerateResource.Cache
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.exe
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\BaseDatos\SCT.sdf
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturMobile.exe
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturMobile.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessEntity.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessLogic.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturCompartido.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\Intermec.DataCollection.CF3.5.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessDataAccess.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\Resco.CustomKeyboard.CF3.xml
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessEntity.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturCompartido.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessDataAccess.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessLogic.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\Intermec.DataCollection.CF3.5.xml
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.pdb

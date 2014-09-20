@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ValidaUsuario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidaUsuarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValidaUsuarioResult" type="tns:Usuario" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Usuario">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="loginUser" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="mobile" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="activo" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="mensaje" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="errNumber" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="centros" type="tns:ArrayOfCentros" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCentros">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Centros" nillable="true" type="tns:Centros" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Centros">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="idcentro" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="centro" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="buscar_tx_control_cabecera">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="codigoBarras" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="buscar_tx_control_cabeceraResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="buscar_tx_control_cabeceraResult" type="tns:Transaccion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Transaccion">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="chofer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="docChofer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="placaVehiculo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="transaccionDetalle" type="tns:ArrayOfTransaccionDetalle" />
+          <s:element minOccurs="0" maxOccurs="1" name="transaccionDetalleVarios" type="tns:ArrayOfTransaccionDetalleVarios" />
+          <s:element minOccurs="1" maxOccurs="1" name="errNumber" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="mensaje" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="idTx" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="fechaRegistro" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="idVehiculo" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="idChofer" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="loginUser" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="idCentro" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="horaInicio" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="horaFin" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="flagSubida" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="flagEstado" type="s:short" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfTransaccionDetalle">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TransaccionDetalle" nillable="true" type="tns:TransaccionDetalle" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TransaccionDetalle">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="idTX" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="codigoBarrasTicket" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="nroLectura" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="observaciones" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="tarifa" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="idVehiculo" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="idChofer" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="idCentro" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="errNumber" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfTransaccionDetalleVarios">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TransaccionDetalleVarios" nillable="true" type="tns:TransaccionDetalleVarios" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TransaccionDetalleVarios">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="idTX" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="idVarios" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="descripcion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="cantidad" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="observaciones" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="idVehiculo" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="idChofer" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="idCentro" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="errNumber" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="buscar_vehiculos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="placa" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="buscar_vehiculosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="buscar_vehiculosResult" type="tns:Vehiculo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Vehiculo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="idVehiculo" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="placa" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="modelo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="marca" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="annioFabricacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nroUnidad" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="empresa" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="errNumber" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="buscar_conductor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="documento" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="buscar_conductorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="buscar_conductorResult" type="tns:Conductor" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Conductor">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="idChofer" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="nombres" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="dni" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="cargo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="empresa" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="licencia" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="errNumber" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="verificar_conexion">
+        <s:complexType />
+      </s:element>
+      <s:element name="verificar_conexionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="verificar_conexionResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listar_otros_pasajeros">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="buscar" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listar_otros_pasajerosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="listar_otros_pasajerosResult" type="tns:ArrayOfOtrosPasajeros" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfOtrosPasajeros">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="OtrosPasajeros" nillable="true" type="tns:OtrosPasajeros" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="OtrosPasajeros">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="idVarios" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="descripcion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="errNumber" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="buscar_ticket">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ticket" type="tns:TransaccionDetalle" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="buscar_ticketResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="buscar_ticketResult" type="tns:TicketDetalle" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TicketDetalle">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="codigoBarras" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="tipoTarifa" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="tarifa" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="fechaVenta" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="fechaExpiracion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="puntoVenta" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="flagEstado" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="color" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="errNumber" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="cerrar_transaccion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="transaccion" type="tns:Transaccion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="cerrar_transaccionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cerrar_transaccionResult" type="tns:Transaccion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="registrar_otros_pasajeros">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="otros" type="tns:TransaccionDetalleVarios" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="registrar_otros_pasajerosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="registrar_otros_pasajerosResult" type="tns:TransaccionDetalleVarios" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="eliminar_Lectura_Ticket">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idTx" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="codBarraTicket" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="eliminar_Lectura_TicketResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="eliminar_Lectura_TicketResult" type="tns:Mensaje" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Mensaje">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="errNumber" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="cancelar_transaccion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="transaccion" type="tns:Transaccion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="cancelar_transaccionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cancelar_transaccionResult" type="tns:Transaccion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="consulta_embarques">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id_centro" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="fecha" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="consulta_embarquesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="consulta_embarquesResult" type="tns:ArrayOfResumenLectura" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfResumenLectura">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ResumenLectura" nillable="true" type="tns:ResumenLectura" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ResumenLectura">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="contador" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="fecha" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="idTx" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nroUnidad" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="placa" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="horaInicio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="horaFin" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="conductor" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="cantidad" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="pax" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="centro" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="tiempo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="estado" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="sincronizacion_offline">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="transOfflne" type="tns:Transaccion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="sincronizacion_offlineResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sincronizacion_offlineResult" type="tns:Transaccion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ValidaUsuarioSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidaUsuario" />
+  </wsdl:message>
+  <wsdl:message name="ValidaUsuarioSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidaUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscar_tx_control_cabeceraSoapIn">
+    <wsdl:part name="parameters" element="tns:buscar_tx_control_cabecera" />
+  </wsdl:message>
+  <wsdl:message name="buscar_tx_control_cabeceraSoapOut">
+    <wsdl:part name="parameters" element="tns:buscar_tx_control_cabeceraResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscar_vehiculosSoapIn">
+    <wsdl:part name="parameters" element="tns:buscar_vehiculos" />
+  </wsdl:message>
+  <wsdl:message name="buscar_vehiculosSoapOut">
+    <wsdl:part name="parameters" element="tns:buscar_vehiculosResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscar_conductorSoapIn">
+    <wsdl:part name="parameters" element="tns:buscar_conductor" />
+  </wsdl:message>
+  <wsdl:message name="buscar_conductorSoapOut">
+    <wsdl:part name="parameters" element="tns:buscar_conductorResponse" />
+  </wsdl:message>
+  <wsdl:message name="verificar_conexionSoapIn">
+    <wsdl:part name="parameters" element="tns:verificar_conexion" />
+  </wsdl:message>
+  <wsdl:message name="verificar_conexionSoapOut">
+    <wsdl:part name="parameters" element="tns:verificar_conexionResponse" />
+  </wsdl:message>
+  <wsdl:message name="listar_otros_pasajerosSoapIn">
+    <wsdl:part name="parameters" element="tns:listar_otros_pasajeros" />
+  </wsdl:message>
+  <wsdl:message name="listar_otros_pasajerosSoapOut">
+    <wsdl:part name="parameters" element="tns:listar_otros_pasajerosResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscar_ticketSoapIn">
+    <wsdl:part name="parameters" element="tns:buscar_ticket" />
+  </wsdl:message>
+  <wsdl:message name="buscar_ticketSoapOut">
+    <wsdl:part name="parameters" element="tns:buscar_ticketResponse" />
+  </wsdl:message>
+  <wsdl:message name="cerrar_transaccionSoapIn">
+    <wsdl:part name="parameters" element="tns:cerrar_transaccion" />
+  </wsdl:message>
+  <wsdl:message name="cerrar_transaccionSoapOut">
+    <wsdl:part name="parameters" element="tns:cerrar_transaccionResponse" />
+  </wsdl:message>
+  <wsdl:message name="registrar_otros_pasajerosSoapIn">
+    <wsdl:part name="parameters" element="tns:registrar_otros_pasajeros" />
+  </wsdl:message>
+  <wsdl:message name="registrar_otros_pasajerosSoapOut">
+    <wsdl:part name="parameters" element="tns:registrar_otros_pasajerosResponse" />
+  </wsdl:message>
+  <wsdl:message name="eliminar_Lectura_TicketSoapIn">
+    <wsdl:part name="parameters" element="tns:eliminar_Lectura_Ticket" />
+  </wsdl:message>
+  <wsdl:message name="eliminar_Lectura_TicketSoapOut">
+    <wsdl:part name="parameters" element="tns:eliminar_Lectura_TicketResponse" />
+  </wsdl:message>
+  <wsdl:message name="cancelar_transaccionSoapIn">
+    <wsdl:part name="parameters" element="tns:cancelar_transaccion" />
+  </wsdl:message>
+  <wsdl:message name="cancelar_transaccionSoapOut">
+    <wsdl:part name="parameters" element="tns:cancelar_transaccionResponse" />
+  </wsdl:message>
+  <wsdl:message name="consulta_embarquesSoapIn">
+    <wsdl:part name="parameters" element="tns:consulta_embarques" />
+  </wsdl:message>
+  <wsdl:message name="consulta_embarquesSoapOut">
+    <wsdl:part name="parameters" element="tns:consulta_embarquesResponse" />
+  </wsdl:message>
+  <wsdl:message name="sincronizacion_offlineSoapIn">
+    <wsdl:part name="parameters" element="tns:sincronizacion_offline" />
+  </wsdl:message>
+  <wsdl:message name="sincronizacion_offlineSoapOut">
+    <wsdl:part name="parameters" element="tns:sincronizacion_offlineResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WsMobileSoap">
+    <wsdl:operation name="ValidaUsuario">
+      <wsdl:input message="tns:ValidaUsuarioSoapIn" />
+      <wsdl:output message="tns:ValidaUsuarioSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="buscar_tx_control_cabecera">
+      <wsdl:input message="tns:buscar_tx_control_cabeceraSoapIn" />
+      <wsdl:output message="tns:buscar_tx_control_cabeceraSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="buscar_vehiculos">
+      <wsdl:input message="tns:buscar_vehiculosSoapIn" />
+      <wsdl:output message="tns:buscar_vehiculosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="buscar_conductor">
+      <wsdl:input message="tns:buscar_conductorSoapIn" />
+      <wsdl:output message="tns:buscar_conductorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="verificar_conexion">
+      <wsdl:input message="tns:verificar_conexionSoapIn" />
+      <wsdl:output message="tns:verificar_conexionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="listar_otros_pasajeros">
+      <wsdl:input message="tns:listar_otros_pasajerosSoapIn" />
+      <wsdl:output message="tns:listar_otros_pasajerosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="buscar_ticket">
+      <wsdl:input message="tns:buscar_ticketSoapIn" />
+      <wsdl:output message="tns:buscar_ticketSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="cerrar_transaccion">
+      <wsdl:input message="tns:cerrar_transaccionSoapIn" />
+      <wsdl:output message="tns:cerrar_transaccionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="registrar_otros_pasajeros">
+      <wsdl:input message="tns:registrar_otros_pasajerosSoapIn" />
+      <wsdl:output message="tns:registrar_otros_pasajerosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_Lectura_Ticket">
+      <wsdl:input message="tns:eliminar_Lectura_TicketSoapIn" />
+      <wsdl:output message="tns:eliminar_Lectura_TicketSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="cancelar_transaccion">
+      <wsdl:input message="tns:cancelar_transaccionSoapIn" />
+      <wsdl:output message="tns:cancelar_transaccionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="consulta_embarques">
+      <wsdl:input message="tns:consulta_embarquesSoapIn" />
+      <wsdl:output message="tns:consulta_embarquesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="sincronizacion_offline">
+      <wsdl:input message="tns:sincronizacion_offlineSoapIn" />
+      <wsdl:output message="tns:sincronizacion_offlineSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WsMobileSoap" type="tns:WsMobileSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ValidaUsuario">
+      <soap:operation soapAction="http://tempuri.org/ValidaUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar_tx_control_cabecera">
+      <soap:operation soapAction="http://tempuri.org/buscar_tx_control_cabecera" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar_vehiculos">
+      <soap:operation soapAction="http://tempuri.org/buscar_vehiculos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar_conductor">
+      <soap:operation soapAction="http://tempuri.org/buscar_conductor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="verificar_conexion">
+      <soap:operation soapAction="http://tempuri.org/verificar_conexion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listar_otros_pasajeros">
+      <soap:operation soapAction="http://tempuri.org/listar_otros_pasajeros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar_ticket">
+      <soap:operation soapAction="http://tempuri.org/buscar_ticket" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cerrar_transaccion">
+      <soap:operation soapAction="http://tempuri.org/cerrar_transaccion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registrar_otros_pasajeros">
+      <soap:operation soapAction="http://tempuri.org/registrar_otros_pasajeros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_Lectura_Ticket">
+      <soap:operation soapAction="http://tempuri.org/eliminar_Lectura_Ticket" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cancelar_transaccion">
+      <soap:operation soapAction="http://tempuri.org/cancelar_transaccion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consulta_embarques">
+      <soap:operation soapAction="http://tempuri.org/consulta_embarques" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sincronizacion_offline">
+      <soap:operation soapAction="http://tempuri.org/sincronizacion_offline" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WsMobileSoap12" type="tns:WsMobileSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ValidaUsuario">
+      <soap12:operation soapAction="http://tempuri.org/ValidaUsuario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar_tx_control_cabecera">
+      <soap12:operation soapAction="http://tempuri.org/buscar_tx_control_cabecera" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar_vehiculos">
+      <soap12:operation soapAction="http://tempuri.org/buscar_vehiculos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar_conductor">
+      <soap12:operation soapAction="http://tempuri.org/buscar_conductor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="verificar_conexion">
+      <soap12:operation soapAction="http://tempuri.org/verificar_conexion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listar_otros_pasajeros">
+      <soap12:operation soapAction="http://tempuri.org/listar_otros_pasajeros" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar_ticket">
+      <soap12:operation soapAction="http://tempuri.org/buscar_ticket" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cerrar_transaccion">
+      <soap12:operation soapAction="http://tempuri.org/cerrar_transaccion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registrar_otros_pasajeros">
+      <soap12:operation soapAction="http://tempuri.org/registrar_otros_pasajeros" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_Lectura_Ticket">
+      <soap12:operation soapAction="http://tempuri.org/eliminar_Lectura_Ticket" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cancelar_transaccion">
+      <soap12:operation soapAction="http://tempuri.org/cancelar_transaccion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consulta_embarques">
+      <soap12:operation soapAction="http://tempuri.org/consulta_embarques" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sincronizacion_offline">
+      <soap12:operation soapAction="http://tempuri.org/sincronizacion_offline" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WsMobile">
+    <wsdl:port name="WsMobileSoap" binding="tns:WsMobileSoap">
+      <soap:address location="http://172.16.12.6/WS_SCT/WsMobile.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WsMobileSoap12" binding="tns:WsMobileSoap12">
+      <soap12:address location="http://172.16.12.6/WS_SCT/WsMobile.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
