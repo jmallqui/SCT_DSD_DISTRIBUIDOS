@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using NHibernate;
 
-namespace AsesoresService.Persistencia
+namespace SCTServiceWCF.Persistencia
 {
     public class BaseDAO<Entidad, Id>
     {

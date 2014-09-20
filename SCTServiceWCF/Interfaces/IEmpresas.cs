@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using SCTServiceWCF.Dominio;
 
 namespace SCTServiceWCF.Servicios
 {
@@ -12,6 +13,6 @@ namespace SCTServiceWCF.Servicios
     public interface IEmpresas
     {
         [OperationContract]
-        void DoWork();
+        Empresa CrearEmpresa(string empresa,string ruc,string telefono,string direccion);
     }
 }

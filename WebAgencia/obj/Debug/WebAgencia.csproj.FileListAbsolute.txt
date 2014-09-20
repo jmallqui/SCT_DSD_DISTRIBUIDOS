@@ -1,0 +1,8 @@
+D:\jmallqui\WebAgencia\WebAgencia\bin\WebAgencia.dll
+D:\jmallqui\WebAgencia\WebAgencia\bin\WebAgencia.pdb
+D:\jmallqui\WebAgencia\WebAgencia\obj\Debug\WebAgencia.dll
+D:\jmallqui\WebAgencia\WebAgencia\obj\Debug\WebAgencia.pdb
+G:\Juan Mallqui Proyectos\JUAN MALLQUI\UPC\DSD\WebAgencia\WebAgencia\WebAgencia\bin\WebAgencia.dll
+G:\Juan Mallqui Proyectos\JUAN MALLQUI\UPC\DSD\WebAgencia\WebAgencia\WebAgencia\bin\WebAgencia.pdb
+G:\Juan Mallqui Proyectos\JUAN MALLQUI\UPC\DSD\WebAgencia\WebAgencia\WebAgencia\obj\Debug\WebAgencia.dll
+G:\Juan Mallqui Proyectos\JUAN MALLQUI\UPC\DSD\WebAgencia\WebAgencia\WebAgencia\obj\Debug\WebAgencia.pdb

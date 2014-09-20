@@ -1,0 +1,7 @@
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.csprojResolveAssemblyReference.cache
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\Iesi.Collections.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\NHibernate.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.pdb

@@ -5,7 +5,7 @@ using System.Web;
 using NHibernate;
 using NHibernate.Cfg;
 
-namespace AsesoresService.Persistencia
+namespace SCTServiceWCF.Persistencia
 {
     public class NHibernateHelper
     {
