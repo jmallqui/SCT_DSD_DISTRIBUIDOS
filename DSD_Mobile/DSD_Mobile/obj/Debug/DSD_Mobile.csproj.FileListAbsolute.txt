@@ -1,0 +1,9 @@
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\DSD_Mobile\DSD_Mobile\bin\Debug\DSD_Mobile.exe
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\DSD_Mobile\DSD_Mobile\bin\Debug\DSD_Mobile.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\DSD_Mobile\DSD_Mobile\bin\Debug\CodeBetter.Json.CF.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\DSD_Mobile\DSD_Mobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\DSD_Mobile\DSD_Mobile\obj\Debug\DSD_Mobile.Formulario.frmControl.resources
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\DSD_Mobile\DSD_Mobile\obj\Debug\DSD_Mobile.Properties.Resources.resources
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\DSD_Mobile\DSD_Mobile\obj\Debug\DSD_Mobile.csproj.GenerateResource.Cache
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\DSD_Mobile\DSD_Mobile\obj\Debug\DSD_Mobile.exe
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\DSD_Mobile\DSD_Mobile\obj\Debug\DSD_Mobile.pdb

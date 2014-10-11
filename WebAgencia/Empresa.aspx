@@ -89,6 +89,16 @@
             <a href="#">Mantenimiento</a>
         </li>
     </ul>
+<asp:Button ID="Button1" 
+                        runat="server" Text="Grabar" onclick="Button1_Click" />
+       <asp:Button ID="Button3" 
+                        runat="server" Text="Modificar" onclick="Button3_Click"  />
+       <asp:Button ID="Button4" 
+                        runat="server" Text="Eliminar" onclick="Button4_Click"  />
+
+
+       
+
 
     <div class="panel panel-default">
         <div class="form-horizontal form-bordered">
@@ -96,35 +106,35 @@
                 
                 <div class="form-group">
                     <label class="col-md-3 control-label">Codigo :</label>
-                    <div class="col-md-3">
-                        <input type="text" class="form-control" />
-                    </div>
-                    <label class="col-md-3 control-label">Alias:</label>
-                    <div class="col-md-3">
-                        <input type="text" class="form-control" />
+&nbsp;<div class="col-md-3">
+                        &nbsp;<asp:TextBox ID="txtCodigo" runat="server"></asp:TextBox> <asp:Button ID="Button2" 
+                        runat="server" Text="Consultar" onclick="Button2_Click" /><br />
+                        <asp:Label ID="lblMensaje" runat="server" ForeColor="Red"></asp:Label>
+
                     </div>
                 </div>
                  <div class="form-group">
                     <label class="col-md-3 control-label">Empresa :</label>
                     <div class="col-md-9">
-                        <input type="text" class="form-control" />
+                        <asp:TextBox ID="txtEmpresa" runat="server" Width="746px"></asp:TextBox>
                     </div>
                    
                 </div>
                  <div class="form-group">
                     <label class="col-md-3 control-label">Ruc :</label>
                     <div class="col-md-3">
-                        <input type="text" class="form-control" />
+                        &nbsp;<asp:TextBox ID="txtruc" runat="server"></asp:TextBox>
                     </div>
                     <label class="col-md-3 control-label">Telefono:</label>
                     <div class="col-md-3">
-                        <input type="text" class="form-control" />
+                        &nbsp;<asp:TextBox ID="txtTelefono" runat="server"></asp:TextBox>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-md-3 control-label">Dirección :</label>
                     <div class="col-md-9">
-                        <input type="text" class="form-control" />
+                        &nbsp;<asp:TextBox ID="txtDireccion" runat="server" 
+                            Width="719px"></asp:TextBox>
                     </div>
                    
                 </div>
@@ -132,11 +142,11 @@
 
         </div>
     </div>
-
+     
     <div class="portlet box blue">
         <div class="portlet-title">
             <div class="caption">
-                <i class="fa fa-cube"></i>Empresa
+                <i class="fa fa-cube"></i>Tarifa
             </div>
             <div class="tools">
                 <a href="javascript:;" class="collapse"></a>
@@ -148,6 +158,39 @@
 
         <div class="portlet-body">
             <div class="table-scrollable">
+
+
+
+
+    <asp:GridView ID="gvempresa" runat="server" AutoGenerateColumns="False" CellPadding="4" 
+                    ForeColor="#333333" GridLines="None" Width="1512px">
+        <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+        <Columns>
+            <asp:BoundField DataField="ID_EMPRESA" HeaderText="Codigo">
+            <ItemStyle Width="200px" />
+            </asp:BoundField>
+            <asp:BoundField DataField="EMPRESA" HeaderText="Empresa">
+            <ItemStyle Width="400px" />
+            </asp:BoundField>
+            <asp:BoundField DataField="RUC" HeaderText="RUC">
+            <ItemStyle Width="100px" />
+            </asp:BoundField>
+            <asp:BoundField DataField="DIRECCION" HeaderText="Direccion">
+            <ItemStyle Width="400px" />
+            </asp:BoundField>
+            <asp:BoundField DataField="TELEFONO" HeaderText="Teléfono" />
+        </Columns>
+        <EditRowStyle BackColor="#999999" />
+        <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+        <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+        <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+        <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+        <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+        <SortedAscendingCellStyle BackColor="#E9E7E2" />
+        <SortedAscendingHeaderStyle BackColor="#506C8C" />
+        <SortedDescendingCellStyle BackColor="#FFFDF8" />
+        <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
+    </asp:GridView>
                
             </div>
         </div>

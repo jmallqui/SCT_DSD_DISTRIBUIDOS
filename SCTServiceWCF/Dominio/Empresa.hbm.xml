@@ -3,13 +3,13 @@
                    assembly="SCTServiceWCF"
                    namespace="SCTServiceWCF.Dominio"
                    default-lazy="false">
-	<class name="Empresa" table="T_SCT_EMPRESA">
-		<id name="ID_EMPRESA" column="ID_EMPRESA">
-			<generator class="native" />
-		</id>
-		<property name="EMPRESA" column="EMPRESA" />
-		<property name="RUC" column="RUC" />
-		<property name="TELEFONO" column="TELEFONO" />
-		<property name="DIRECCION" column="DIRECCION" />   
-	</class>
+  <class name="Empresa" table="T_SCT_EMPRESA">
+    <id name="ID_EMPRESA" column="ID_EMPRESA">
+      <generator class="native" />
+    </id>
+    <property name="EMPRESA" column="EMPRESA" />
+    <property name="RUC" column="RUC" />
+    <property name="TELEFONO" column="TELEFONO" />
+    <property name="DIRECCION" column="DIRECCION" />
+  </class>
 </hibernate-mapping>

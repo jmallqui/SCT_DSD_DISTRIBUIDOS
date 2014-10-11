@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="SCTServiceWCF"
+                   namespace="SCTServiceWCF.Dominio"
+                   default-lazy="false">
+  <class name="Centro" table="T_SCT_CENTRO_OPERACIONES">
+    <id name="ID_CENTRO" column="ID_CENTRO">
+      <generator class="increment" />
+    </id>
+    <property name="DESCRIPCION" column="DESCRIPCION" />
+	  <property name="EMPRESA" column="ID_EMPRESA" />
+  </class>
+</hibernate-mapping> 

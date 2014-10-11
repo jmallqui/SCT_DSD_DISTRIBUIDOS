@@ -13,15 +13,15 @@ namespace SCTServiceWCF.Servicios
     public interface IEmpresas
     {
         [OperationContract]
-        Empresa CrearEmpresa(string empresa,string ruc,string telefono,string direccion);
+        Empresa CrearEmpresa(string empresa, string ruc, string telefono, string direccion);
         [OperationContract]
-        Empresa ObtenerEmpresa(int codigo, string empresa, string ruc, string telefono, string direccion);
+        Empresa ObtenerEmpresa(int codigo);
         [OperationContract]
         Empresa ModificarEmpresa(int codigo, string empresa, string ruc, string telefono, string direccion);
         [OperationContract]
         void EliminarEmpresa(int codigo);
         [OperationContract]
-        List<Empresa> ListarEmpresa();    
+        List<Empresa> ListarEmpresa();
 
     }
 }

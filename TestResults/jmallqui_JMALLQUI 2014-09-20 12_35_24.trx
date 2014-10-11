@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4f48577f-b247-4aac-923b-46a43cdaea20" name="jmallqui@JMALLQUI 2014-09-20 12:35:24" runUser="NTCIP\jmallqui" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Configuración de pruebas predeterminada" id="3c5b64bb-56f0-42f0-875c-27a7b3160cef">
+    <Deployment runDeploymentRoot="jmallqui_JMALLQUI 2014-09-20 12_35_24">
+      <DeploymentItem filename="C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-20T12:35:24.4240267-05:00" queuing="2014-09-20T12:35:25.3825766-05:00" start="2014-09-20T12:35:25.4608652-05:00" finish="2014-09-20T12:35:26.5778808-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CrearEmpresaTest" storage="c:\users\jmallqui.ntcip\google drive\201402\dsd\proyecto\sct_dsd_distribuidos\testempresaservice\bin\debug\testempresaservice.dll" id="c2bd3e72-90cc-46b7-1c96-9f7d2f56caeb">
+      <Execution id="e82165e5-ed79-4112-888e-9f60e4447ffc" />
+      <TestMethod codeBase="C:/Users/jmallqui.NTCIP/Google Drive/201402/DSD/proyecto/SCT_DSD_DISTRIBUIDOS/TestEmpresaService/bin/Debug/TestEmpresaService.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEmpresaService.UnitTest1, TestEmpresaService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CrearEmpresaTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c2bd3e72-90cc-46b7-1c96-9f7d2f56caeb" executionId="e82165e5-ed79-4112-888e-9f60e4447ffc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e82165e5-ed79-4112-888e-9f60e4447ffc" testId="c2bd3e72-90cc-46b7-1c96-9f7d2f56caeb" testName="CrearEmpresaTest" computerName="JMALLQUI" duration="00:00:00.8038623" startTime="2014-09-20T12:35:25.4628276-05:00" endTime="2014-09-20T12:35:26.5318440-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e82165e5-ed79-4112-888e-9f60e4447ffc">
+      <Output>
+        <StdOut>NHibernate: INSERT INTO T_SCT_EMPRESA (EMPRESA, RUC, TELEFONO, DIRECCION) VALUES (@p0, @p1, @p2, @p3); select SCOPE_IDENTITY();@p0 = 'Transporte Cholo' [Type: String (4000)], @p1 = '104343234432' [Type: String (4000)], @p2 = '5643232' [Type: String (4000)], @p3 = 'su casa en donde no se' [Type: String (4000)]</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

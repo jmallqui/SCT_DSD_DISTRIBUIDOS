@@ -6,7 +6,7 @@ using SCTServiceWCF.Persistencia;
 using SCTServiceWCF.Dominio;
 namespace SCTServiceWCF.Persistencia
 {
-    public class EmpresaDAO : BaseDAO <Empresa,int>
+    public class EmpresaDAO : BaseDAO<Empresa, int>
     {
     }
 }

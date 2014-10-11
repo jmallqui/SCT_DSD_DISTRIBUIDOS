@@ -23,5 +23,7 @@ namespace SCTServiceWCF.Dominio
         public string NRO_UNIDAD { get; set; }
         [DataMember]
         public int ID_EMPRESA { get; set; }
+        [DataMember]
+        public int FLAG_ANULA { get; set; }
     }
 }

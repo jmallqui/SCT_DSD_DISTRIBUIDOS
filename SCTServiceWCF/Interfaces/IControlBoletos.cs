@@ -4,6 +4,8 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using SCTServiceWCF.Dominio;
+using System.ServiceModel.Web;
 
 namespace SCTServiceWCF.Servicios
 {
@@ -12,6 +14,16 @@ namespace SCTServiceWCF.Servicios
     public interface IControlBoletos
     {
         [OperationContract]
-        void DoWork();
+        [WebInvoke(Method = "GET", UriTemplate = "Controles/{nroTicket}", ResponseFormat = WebMessageFormat.Json)]
+        Tickets LeerTicket(string nroTicket);
+
+        [OperationContract]
+        [WebInvoke(Method = "PUT", UriTemplate = "Controles/Actualizar/{nroTicket}", ResponseFormat = WebMessageFormat.Json)]
+        Tickets ActualizarTicket(string nroTicket);
+
+        [OperationContract]
+        [WebInvoke(Method = "GET", UriTemplate = "Controles", ResponseFormat = WebMessageFormat.Json)]
+        List<Tickets> ListarTicket();
+
     }
 }

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="SCTServiceWCF"
+                   namespace="SCTServiceWCF.Dominio"
+                   default-lazy="false">
+	<class name="Tickets" table="T_SCT_CONTROL">
+		<id name="COD_BARRA_TICKET" column="COD_BARRA_TICKET"/>
+		<property name="NOM_TARIFA" column="NOM_TARIFA" />
+		<property name="FEC_REGISTRO" column="FEC_REGISTRO" />
+		<property name="PUNTO_VENTA" column="PUNTO_VENTA" />
+
+	</class>
+</hibernate-mapping>
+

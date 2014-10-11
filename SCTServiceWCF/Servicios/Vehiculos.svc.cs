@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
+using System.ServiceModel.Web;
 using System.Text;
 using SCTServiceWCF.Persistencia;
 using SCTServiceWCF.Dominio;
@@ -10,11 +11,10 @@ using SCTServiceWCF.Dominio;
 
 namespace SCTServiceWCF.Servicios
 {
-    // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "Vehiculos" en el código, en svc y en el archivo de configuración a la vez.
+    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Vehiculos" in code, svc and config file together.
     public class Vehiculos : IVehiculos
     {
-
-       private VehiculoDAO vehiculoDAO = null;
+        private VehiculoDAO vehiculoDAO = null;
         private VehiculoDAO VehiculoDAO
         {
             get
@@ -22,10 +22,10 @@ namespace SCTServiceWCF.Servicios
                 if (vehiculoDAO == null)
                     vehiculoDAO = new VehiculoDAO();
                 return vehiculoDAO;
-            
+
             }
-        
-        
+
+
         }
 
         private EmpresaDAO empresaDAO = null;
@@ -42,34 +42,11 @@ namespace SCTServiceWCF.Servicios
 
         }
 
-
-       /* public Vehiculo CrearVehiculo(int ID_VEHICULO, string PLACA, string MODELO, string MARCA, string ANNIO_FABRICACION, string NRO_UNIDAD, Empresa int ID_EMPRESA)
+        public Vehiculo CrearVehiculo(string PLACA, string MODELO, string MARCA, string ANNIO_FABRICACION, string NRO_UNIDAD, int ID_EMPRESA)      
         {
             Empresa empresaExiste = EmpresaDAO.Obtener(ID_EMPRESA);
-             Vehiculo VehiculoACrear =new Vehiculo()
-            {
-                ID_VEHICULO = ID_VEHICULO,
-                PLACA = PLACA,
-                MODELO = MODELO,
-                MARCA = MARCA,
-                ANNIO_FABRICACION = ANNIO_FABRICACION,
-                NRO_UNIDAD = NRO_UNIDAD,
-                ID_EMPRESA = empresaExiste,
-
-            };
-             return VehiculoDAO.Crear(VehiculoACrear);
-        }
-
-        //public Empresa Em { get; set; }
-
-       // public Empresa E { get; set; }*/
-
-        public Vehiculo CrearVehiculo(int ID_VEHICULO, string PLACA, string MODELO, string MARCA, string ANNIO_FABRICACION, string NRO_UNIDAD, int id_empresa)
-        {
-            Empresa empresaExiste = EmpresaDAO.Obtener(id_empresa);
             Vehiculo VehiculoACrear = new Vehiculo()
             {
-                ID_VEHICULO = ID_VEHICULO,
                 PLACA = PLACA,
                 MODELO = MODELO,
                 MARCA = MARCA,
@@ -80,6 +57,57 @@ namespace SCTServiceWCF.Servicios
             };
             return VehiculoDAO.Crear(VehiculoACrear);
         }
-    }
 
+
+        public Vehiculo ObtenerVehiculo(int ID_VEHICULO)
+        {
+
+            return VehiculoDAO.Obtener(ID_VEHICULO);
+        }
+
+        public Vehiculo ModificarVehiculo(int ID_VEHICULO, string PLACA, string MODELO, string MARCA, string ANNIO_FABRICACION, string NRO_UNIDAD, int FLAG_ANULA, int ID_EMPRESA)
+        {
+            Vehiculo vehiculoaAModificar = new Vehiculo()
+
+            {
+
+                ID_VEHICULO = ID_VEHICULO,
+                PLACA = PLACA,
+                MODELO = MODELO,
+                MARCA = MARCA,
+                ANNIO_FABRICACION = ANNIO_FABRICACION,
+                NRO_UNIDAD = NRO_UNIDAD,
+                FLAG_ANULA = FLAG_ANULA,
+                ID_EMPRESA = ID_EMPRESA,
+                
+
+            };
+
+            return VehiculoDAO.Modificar(vehiculoaAModificar);
+        }
+
+        public Vehiculo EliminarVehiculo(int ID_VEHICULO, string PLACA, string MODELO, string MARCA, string ANNIO_FABRICACION, string NRO_UNIDAD, int id_empresa, int FLAG_ANULA)
+        {
+            Vehiculo vehiculoaAEliminar = new Vehiculo()
+            {
+                ID_VEHICULO = ID_VEHICULO,
+                PLACA = PLACA,
+                MODELO = MODELO,
+                MARCA = MARCA,
+                ANNIO_FABRICACION = ANNIO_FABRICACION,
+                NRO_UNIDAD = NRO_UNIDAD,
+                FLAG_ANULA = FLAG_ANULA,
+                ID_EMPRESA = id_empresa,
+            };
+            
+            return VehiculoDAO.Modificar(vehiculoaAEliminar);
+       }
+
+        
+        public List<Vehiculo> ListarVehiculo()
+        {
+            return VehiculoDAO.ListarTodos().ToList();
+        }
+
+    }
 }

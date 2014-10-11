@@ -19,10 +19,14 @@
     <FormFactorID>
     </FormFactorID>
     <ApplicationIcon>SCT.ico</ApplicationIcon>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,6 +54,10 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CodeBetter.Json.CF, Version=1.0.5387.39403, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\CodeBetter.Json.CF.dll</HintPath>
+    </Reference>
     <Reference Include="Intermec.DataCollection.CF3.5, Version=4.2.0.1785, Culture=neutral, PublicKeyToken=acd169b56b6148ba, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.WindowsCE.Forms" />
     <Reference Include="mscorlib" />
@@ -78,6 +86,13 @@
     <Compile Include="Clases\clsSonido.cs" />
     <Compile Include="Clases\clsUtil.cs" />
     <Compile Include="Clases\clsComentado.cs" />
+    <Compile Include="Clases\Tickets.cs" />
+    <Compile Include="Formulario\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulario\frmAcceso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +125,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formulario\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulario\frmAcceso.resx">
       <DependentUpon>frmAcceso.cs</DependentUpon>
     </EmbeddedResource>

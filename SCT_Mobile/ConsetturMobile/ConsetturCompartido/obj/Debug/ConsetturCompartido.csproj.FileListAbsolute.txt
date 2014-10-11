@@ -23,3 +23,8 @@ C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturCompartido\bin\Debug\
 C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturCompartido\obj\Debug\ResolveAssemblyReference.cache
 C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturCompartido\obj\Debug\ConsetturCompartido.dll
 C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturCompartido\obj\Debug\ConsetturCompartido.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturCompartido\bin\Debug\ConsetturCompartido.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturCompartido\bin\Debug\ConsetturCompartido.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturCompartido\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturCompartido\obj\Debug\ConsetturCompartido.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturCompartido\obj\Debug\ConsetturCompartido.pdb

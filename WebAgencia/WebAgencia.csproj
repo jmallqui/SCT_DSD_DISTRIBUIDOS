@@ -13,7 +13,7 @@
     <RootNamespace>WebAgencia</RootNamespace>
     <AssemblyName>WebAgencia</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,6 +38,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -1329,12 +1331,54 @@
     <Content Include="Conductor.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Empresa.aspx" />
+    <None Include="Service References\proxyCentros\Centros.wsdl" />
+    <None Include="Service References\proxyCentros\Centros.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyCentros\Centros1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyCentros\Centros11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyCentros\WebAgencia.proxyCentros.Centro.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\proxyEmpresas\Empresas.disco" />
+    <None Include="Service References\proxyEmpresas\configuration91.svcinfo" />
+    <None Include="Service References\proxyEmpresas\configuration.svcinfo" />
+    <None Include="Service References\proxyEmpresas\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\proxyCentros\Centros.disco" />
+    <None Include="Service References\proxyCentros\configuration91.svcinfo" />
+    <None Include="Service References\proxyCentros\configuration.svcinfo" />
+    <None Include="Service References\proxyCentros\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\proxyTarifas\Tarifa.disco" />
+    <None Include="Service References\proxyTarifas\configuration91.svcinfo" />
+    <None Include="Service References\proxyTarifas\configuration.svcinfo" />
+    <None Include="Service References\proxyTarifas\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\proxyVehiculos\Vehiculos.disco" />
+    <None Include="Service References\proxyVehiculos\configuration91.svcinfo" />
+    <None Include="Service References\proxyVehiculos\configuration.svcinfo" />
+    <None Include="Service References\proxyVehiculos\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Tarifa.aspx" />
     <Content Include="Vehiculo.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -1343,6 +1387,45 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <None Include="Service References\proxyEmpresas\Empresas.wsdl" />
+    <None Include="Service References\proxyEmpresas\Empresas.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyEmpresas\Empresas1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyEmpresas\Empresas2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyEmpresas\WebAgencia.proxyEmpresas.Empresa.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\proxyTarifas\Tarifa.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyTarifas\Tarifa1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyTarifas\Tarifa2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyTarifas\Tarifas.wsdl" />
+    <None Include="Service References\proxyTarifas\WebAgencia.proxyTarifas.Tarifa.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\proxyVehiculos\Vehiculos.wsdl" />
+    <None Include="Service References\proxyVehiculos\Vehiculos.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyVehiculos\Vehiculos1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyVehiculos\Vehiculos2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyVehiculos\WebAgencia.proxyVehiculos.Vehiculo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -1419,12 +1502,39 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\proxyCentros\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\proxyEmpresas\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\proxyTarifas\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\proxyVehiculos\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Tarifa.aspx.cs">
+      <DependentUpon>Tarifa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tarifa.aspx.designer.cs">
+      <DependentUpon>Tarifa.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vehiculo.aspx.cs">
       <DependentUpon>Vehiculo.aspx</DependentUpon>
@@ -1572,18 +1682,26 @@
     <None Include="assets\global\plugins\uniform\css\uniform.default.scss" />
     <None Include="assets\global\plugins\uniform\README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\proxyCentros\" />
+    <WCFMetadataStorage Include="Service References\proxyEmpresas\" />
+    <WCFMetadataStorage Include="Service References\proxyTarifas\" />
+    <WCFMetadataStorage Include="Service References\proxyVehiculos\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>False</UseIIS>
+          <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>53687</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>
-          </IISUrl>
+          <IISUrl>http://localhost:53687/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

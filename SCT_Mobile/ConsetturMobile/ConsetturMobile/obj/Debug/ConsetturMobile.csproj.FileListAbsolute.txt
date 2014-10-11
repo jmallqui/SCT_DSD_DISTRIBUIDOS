@@ -140,3 +140,5 @@ C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SC
 C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\ConsetturBussinessLogic.pdb
 C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\Intermec.DataCollection.CF3.5.xml
 C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\obj\Debug\ConsetturMobile.Formulario.Form1.resources
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturMobile\bin\Debug\CodeBetter.Json.CF.dll

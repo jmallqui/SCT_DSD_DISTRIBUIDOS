@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/SCTServiceWCF/Servicios/Vehiculos.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/SCTServiceWCF.Dominio" />
+  <xs:element name="CrearVehiculo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PLACA" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MODELO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MARCA" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ANNIO_FABRICACION" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NRO_UNIDAD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ID_EMPRESA" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CrearVehiculoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/SCTServiceWCF.Dominio" minOccurs="0" name="CrearVehiculoResult" nillable="true" type="q1:Vehiculo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerVehiculo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID_VEHICULO" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerVehiculoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/SCTServiceWCF.Dominio" minOccurs="0" name="ObtenerVehiculoResult" nillable="true" type="q2:Vehiculo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarVehiculo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID_VEHICULO" type="xs:int" />
+        <xs:element minOccurs="0" name="PLACA" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MODELO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MARCA" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ANNIO_FABRICACION" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NRO_UNIDAD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="id_empresa" type="xs:int" />
+        <xs:element minOccurs="0" name="FLAG_ANULA" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarVehiculoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/SCTServiceWCF.Dominio" minOccurs="0" name="ModificarVehiculoResult" nillable="true" type="q3:Vehiculo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarVehiculo">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarVehiculoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/SCTServiceWCF.Dominio" minOccurs="0" name="ListarVehiculoResult" nillable="true" type="q4:ArrayOfVehiculo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarVehiculo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID_VEHICULO" type="xs:int" />
+        <xs:element minOccurs="0" name="PLACA" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MODELO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MARCA" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ANNIO_FABRICACION" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NRO_UNIDAD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="id_empresa" type="xs:int" />
+        <xs:element minOccurs="0" name="FLAG_ANULA" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarVehiculoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/SCTServiceWCF.Dominio" minOccurs="0" name="EliminarVehiculoResult" nillable="true" type="q5:Vehiculo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

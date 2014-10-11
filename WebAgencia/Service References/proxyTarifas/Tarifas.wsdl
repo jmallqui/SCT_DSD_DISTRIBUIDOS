@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Tarifas" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/SCTServiceWCF/Servicios/Tarifa.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/SCTServiceWCF/Servicios/Tarifa.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/SCTServiceWCF/Servicios/Tarifa.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/SCTServiceWCF.Dominio" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITarifa_RegistrarTarifa_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegistrarTarifa" />
+  </wsdl:message>
+  <wsdl:message name="ITarifa_RegistrarTarifa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegistrarTarifaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITarifa_ModificarTarifa_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarTarifa" />
+  </wsdl:message>
+  <wsdl:message name="ITarifa_ModificarTarifa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarTarifaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITarifa_EliminarTarifa_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarTarifa" />
+  </wsdl:message>
+  <wsdl:message name="ITarifa_EliminarTarifa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarTarifaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITarifa_ObtenerTarifa_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerTarifa" />
+  </wsdl:message>
+  <wsdl:message name="ITarifa_ObtenerTarifa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerTarifaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITarifa_ListarTarifa_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarTarifa" />
+  </wsdl:message>
+  <wsdl:message name="ITarifa_ListarTarifa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarTarifaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ITarifa">
+    <wsdl:operation name="RegistrarTarifa">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITarifa/RegistrarTarifa" message="tns:ITarifa_RegistrarTarifa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITarifa/RegistrarTarifaResponse" message="tns:ITarifa_RegistrarTarifa_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarTarifa">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITarifa/ModificarTarifa" message="tns:ITarifa_ModificarTarifa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITarifa/ModificarTarifaResponse" message="tns:ITarifa_ModificarTarifa_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarTarifa">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITarifa/EliminarTarifa" message="tns:ITarifa_EliminarTarifa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITarifa/EliminarTarifaResponse" message="tns:ITarifa_EliminarTarifa_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerTarifa">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITarifa/ObtenerTarifa" message="tns:ITarifa_ObtenerTarifa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITarifa/ObtenerTarifaResponse" message="tns:ITarifa_ObtenerTarifa_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTarifa">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITarifa/ListarTarifa" message="tns:ITarifa_ListarTarifa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITarifa/ListarTarifaResponse" message="tns:ITarifa_ListarTarifa_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ITarifa" type="tns:ITarifa">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RegistrarTarifa">
+      <soap:operation soapAction="http://tempuri.org/ITarifa/RegistrarTarifa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarTarifa">
+      <soap:operation soapAction="http://tempuri.org/ITarifa/ModificarTarifa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarTarifa">
+      <soap:operation soapAction="http://tempuri.org/ITarifa/EliminarTarifa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerTarifa">
+      <soap:operation soapAction="http://tempuri.org/ITarifa/ObtenerTarifa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTarifa">
+      <soap:operation soapAction="http://tempuri.org/ITarifa/ListarTarifa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Tarifas">
+    <wsdl:port name="BasicHttpBinding_ITarifa" binding="tns:BasicHttpBinding_ITarifa">
+      <soap:address location="http://localhost/SCTServiceWCF/Servicios/Tarifa.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

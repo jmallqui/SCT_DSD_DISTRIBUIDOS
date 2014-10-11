@@ -70,6 +70,7 @@
     </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+       <h3 class="page-title">&nbsp;</h3>
        <h3 class="page-title">Centros
         <small>Listado de los Centros</small>
     </h3>
@@ -105,15 +106,17 @@
             <a href="#">Mantenimiento</a>
         </li>
     </ul>
-
-    <div class="panel panel-default">
-        <div class="form-horizontal form-bordered">
-            <div class="form-body">
+       <div class="panel panel-default">
+           <div class="form-horizontal form-bordered">
+               <div class="form-body">
                 
-                <div class="form-group">
-                    <label class="col-md-3 control-label">Codigo :</label>
+                   <div class="form-group">
+                       <label class="col-md-3 control-label">
+                       <br />
+                       Codigo :</label>
                     <div class="col-md-3">
-                        <input type="text" class="form-control" />
+                        &nbsp;<asp:TextBox ID="txtCodigo" runat="server"></asp:TextBox>
+                        <asp:Button ID="btnConsultar" runat="server" Text="Consultar" OnClick="btnConsultar_Click" />
                     </div>
                     
                 </div>
@@ -121,7 +124,20 @@
                 <div class="form-group">
                     <label class="col-md-3 control-label">Descripción :</label>
                     <div class="col-md-9">
-                        <input type="text" class="form-control" />
+                        &nbsp;<asp:TextBox ID="txtDescripcion" runat="server"></asp:TextBox>
+                        <br />
+                        Empresa:<br />
+                        <asp:DropDownList ID="DropDownList1" runat="server">
+                        </asp:DropDownList>
+                        <br />
+                        <br />
+                    <label class="col-md-3 control-label">
+                        <asp:Button ID="btnGrabar" runat="server" Text="Grabar" OnClick="btnGrabar_Click" />
+                        <asp:Button ID="btnModificar" runat="server" Text="Modificar" OnClick="btnModificar_Click" />
+                        <br />
+                        <asp:Label ID="lblMensaje" runat="server" BorderColor="Red" ForeColor="Red"></asp:Label>
+                        <br />
+                        </label>
                     </div>
                    
                 </div>
@@ -141,6 +157,23 @@
                 <%--<a href="#portlet-config" data-toggle="modal" class="config"></a>--%>
                 <a href="javascript:;" class="reload"></a>
                 <%--<a href="javascript:;" class="remove"></a>--%>
+                <asp:GridView ID="gvCentro" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" Height="108px" Width="213px">
+                    <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                    <Columns>
+                        <asp:BoundField DataField="ID_CENTRO" HeaderText="Codigo" />
+                        <asp:BoundField DataField="DESCRIPCION" HeaderText="Descripcion" />
+                    </Columns>
+                    <EditRowStyle BackColor="#999999" />
+                    <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                    <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                    <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+                    <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+                    <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+                    <SortedAscendingCellStyle BackColor="#E9E7E2" />
+                    <SortedAscendingHeaderStyle BackColor="#506C8C" />
+                    <SortedDescendingCellStyle BackColor="#FFFDF8" />
+                    <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
+                </asp:GridView>
             </div>
         </div>
 

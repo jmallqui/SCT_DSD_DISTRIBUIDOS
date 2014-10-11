@@ -10,47 +10,46 @@ using SCTServiceWCF.Dominio;
 
 namespace SCTServiceWCF.Servicios
 {
-    // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "Empresas" en el código, en svc y en el archivo de configuración a la vez.
+
     public class Empresas : IEmpresas
     {
 
         #region Miembros de IEmpresas
 
-                   private EmpresaDAO empresaDAO= null;
-                    private EmpresaDAO EmpresaDAO
-                    {
-                        get
-                        {
-                            if (empresaDAO == null)
-                                empresaDAO = new EmpresaDAO();
-                            return empresaDAO;
-                        }
-                    }
+        private EmpresaDAO empresaDAO = null;
+        private EmpresaDAO EmpresaDAO
+        {
+            get
+            {
+                if (empresaDAO == null)
+                    empresaDAO = new EmpresaDAO();
+                return empresaDAO;
+            }
+        }
 
-        
 
-        public Dominio.Empresa CrearEmpresa(string empresa, string ruc, string telefono, string direccion)
-        
+
+        public Empresa CrearEmpresa(string empresa, string ruc, string telefono, string direccion)
         {
             Empresa EmpresaACrear = new Empresa()
             {
 
-                    EMPRESA =empresa ,
-                    RUC =ruc,
-                    DIRECCION =direccion ,
-                    TELEFONO =telefono 
+                EMPRESA = empresa,
+                RUC = ruc,
+                DIRECCION = direccion,
+                TELEFONO = telefono
             };
 
             return EmpresaDAO.Crear(EmpresaACrear);
         }
 
 
-        public Dominio.Empresa ObtenerEmpresa(int codigo, string empresa, string ruc, string telefono, string direccion)
+        public Empresa ObtenerEmpresa(int codigo)
         {
             return EmpresaDAO.Obtener(codigo);
         }
 
-        public Dominio.Empresa ModificarEmpresa(int codigo, string empresa, string ruc, string telefono, string direccion)
+        public Empresa ModificarEmpresa(int codigo, string empresa, string ruc, string telefono, string direccion)
         {
             Empresa empresaAModificar = new Empresa()
             {
@@ -58,7 +57,7 @@ namespace SCTServiceWCF.Servicios
                 EMPRESA = empresa,
                 RUC = ruc,
                 DIRECCION = direccion,
-                TELEFONO = telefono 
+                TELEFONO = telefono
             };
 
             return EmpresaDAO.Modificar(empresaAModificar);
@@ -75,10 +74,9 @@ namespace SCTServiceWCF.Servicios
             return EmpresaDAO.ListarTodos().ToList();
         }
 
-
-        
+     
     }
 
         #endregion
-    }
+}
 

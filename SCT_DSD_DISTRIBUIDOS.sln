@@ -10,6 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Librerias", "Librerias", "{
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAgencia", "WebAgencia\WebAgencia.csproj", "{D312EBE5-F56F-45B5-8DA0-029FB1D9DF4F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FCB2C844-EE9C-4C1A-8855-92CA148F4BBA} = {FCB2C844-EE9C-4C1A-8855-92CA148F4BBA}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEmpresaService", "TestEmpresaService\TestEmpresaService.csproj", "{D9C442BC-C923-4653-9690-9BF3E07F980F}"
 EndProject

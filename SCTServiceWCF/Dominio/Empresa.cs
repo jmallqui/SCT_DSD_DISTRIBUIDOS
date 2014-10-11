@@ -25,7 +25,7 @@ namespace SCTServiceWCF.Dominio
         public string DIRECCION { get; set; }
         [DataMember]
         public Empresa LISTA { get; set; }
-        
+
 
     }
 }

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="61abac86-5a8b-43e2-94fd-130407600f63" name="jmallqui@JMALLQUI 2014-10-01 20:21:26" runUser="NTCIP\jmallqui" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Configuración de pruebas predeterminada" id="d2586e26-8c63-4302-b01f-c85d0949a6bc">
+    <Deployment runDeploymentRoot="jmallqui_JMALLQUI 2014-10-01 20_21_26">
+      <DeploymentItem filename="C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T20:21:26.9842817-05:00" queuing="2014-10-01T20:21:34.7362836-05:00" start="2014-10-01T20:21:35.2928587-05:00" finish="2014-10-01T20:21:37.1251180-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CRUDTest" storage="c:\users\jmallqui.ntcip\google drive\201402\dsd\proyecto\sct_dsd_distribuidos\testempresaservice\bin\debug\testempresaservice.dll" id="b7e2f85a-09d7-f97c-542a-dba2872a760d">
+      <Execution id="0d17a52e-380e-42ff-a18c-63fb9ed1677b" />
+      <TestMethod codeBase="C:/Users/jmallqui.NTCIP/Google Drive/201402/DSD/proyecto/SCT_DSD_DISTRIBUIDOS/TestEmpresaService/bin/Debug/TestEmpresaService.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEmpresaService.UnitTest1, TestEmpresaService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CRUDTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b7e2f85a-09d7-f97c-542a-dba2872a760d" executionId="0d17a52e-380e-42ff-a18c-63fb9ed1677b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0d17a52e-380e-42ff-a18c-63fb9ed1677b" testId="b7e2f85a-09d7-f97c-542a-dba2872a760d" testName="CRUDTest" computerName="JMALLQUI" duration="00:00:00.8489503" startTime="2014-10-01T20:21:35.4374395-05:00" endTime="2014-10-01T20:21:36.8476651-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d17a52e-380e-42ff-a18c-63fb9ed1677b">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba TestEmpresaService.UnitTest1.CRUDTest produjo la excepción: 
+System.Net.WebException: Error en el servidor remoto: (400) Solicitud incorrecta.</Message>
+          <StackTrace>    en System.Net.HttpWebRequest.GetResponse()
+   en TestEmpresaService.UnitTest1.CRUDTest() en C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\UnitTest1.cs:línea 57
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

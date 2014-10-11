@@ -12,7 +12,9 @@
     <property name="MARCA" column="MARCA" />
     <property name="ANNIO_FABRICACION" column="ANNIO_FABRICACION" />
     <property name="NRO_UNIDAD" column="NRO_UNIDAD" />
+    <property name="FLAG_ANULA" column="FLAG_ANULA" />
     <property name="ID_EMPRESA" column="ID_EMPRESA" />
+    
   </class>
 </hibernate-mapping>
 

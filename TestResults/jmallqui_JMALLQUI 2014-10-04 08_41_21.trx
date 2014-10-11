@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f2491721-9c17-4b59-80fb-30d4467fba84" name="jmallqui@JMALLQUI 2014-10-04 08:41:21" runUser="NTCIP\jmallqui" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Configuración de pruebas predeterminada" id="a21163e8-1640-46aa-aa92-15560797eca7">
+    <Deployment runDeploymentRoot="jmallqui_JMALLQUI 2014-10-04 08_41_21">
+      <DeploymentItem filename="C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-04T08:41:21.8088307-05:00" queuing="2014-10-04T08:41:26.7198208-05:00" start="2014-10-04T08:41:26.8349008-05:00" finish="2014-10-04T08:41:29.6712416-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CRUDTest" storage="c:\users\jmallqui.ntcip\google drive\201402\dsd\proyecto\sct_dsd_distribuidos\testempresaservice\bin\debug\testempresaservice.dll" id="b7e2f85a-09d7-f97c-542a-dba2872a760d">
+      <Execution id="e934f8d7-1065-49bc-ba6c-574c084008b3" />
+      <TestMethod codeBase="C:/Users/jmallqui.NTCIP/Google Drive/201402/DSD/proyecto/SCT_DSD_DISTRIBUIDOS/TestEmpresaService/bin/Debug/TestEmpresaService.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEmpresaService.UnitTest1, TestEmpresaService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CRUDTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b7e2f85a-09d7-f97c-542a-dba2872a760d" executionId="e934f8d7-1065-49bc-ba6c-574c084008b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e934f8d7-1065-49bc-ba6c-574c084008b3" testId="b7e2f85a-09d7-f97c-542a-dba2872a760d" testName="CRUDTest" computerName="JMALLQUI" duration="00:00:02.3071240" startTime="2014-10-04T08:41:26.9111541-05:00" endTime="2014-10-04T08:41:29.6272092-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e934f8d7-1065-49bc-ba6c-574c084008b3">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba TestEmpresaService.UnitTest1.CRUDTest produjo la excepción: 
+System.Net.WebException: No es posible conectar con el servidor remoto ---&gt; System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:20001</Message>
+          <StackTrace>    en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket&amp; socket, IPAddress&amp; address, ConnectSocketState state, IAsyncResult asyncResult, Exception&amp; exception)
+ --- Fin del seguimiento de la pila de la excepción interna ---
+    en System.Net.HttpWebRequest.GetResponse()
+   en TestEmpresaService.UnitTest1.CRUDTest() en C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\UnitTest1.cs:línea 57
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

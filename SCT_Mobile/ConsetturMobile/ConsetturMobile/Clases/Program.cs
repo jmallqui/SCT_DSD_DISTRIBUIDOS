@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using ConsetturMobile.Formulario;
 
 namespace ConsetturMobile
 {
@@ -13,7 +14,7 @@ namespace ConsetturMobile
         [MTAThread]
         static void Main()
         {
-            Application.Run(new frmAcceso());
+            Application.Run(new Form1());
         }
     }
 }

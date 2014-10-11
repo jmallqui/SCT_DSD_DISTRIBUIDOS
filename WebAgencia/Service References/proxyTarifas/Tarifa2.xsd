@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SCTServiceWCF.Dominio" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SCTServiceWCF.Dominio" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Tarifa">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ERRORNUMERO" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_TARIFA" type="xs:int" />
+      <xs:element minOccurs="0" name="MENSAJE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MONEDA" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NOM_TARIFA" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PRECIO" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Tarifa" nillable="true" type="tns:Tarifa" />
+  <xs:complexType name="ArrayOfTarifa">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Tarifa" nillable="true" type="tns:Tarifa" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTarifa" nillable="true" type="tns:ArrayOfTarifa" />
+</xs:schema>

@@ -9,7 +9,7 @@ namespace SCTServiceWCF.Persistencia
     {
         public static string ObtenerCadena()
         {
-            return "Data Source=JMALLQUI\\JMALLQUI;Initial Catalog=SCT;User ID=dsdupc;Password=d1stribuidos";
+            return "Data Source=.\\JMALLQUI;Initial Catalog=SCT;User ID=dsdupc;Password=d1stribuidos";
         }
     }
 }

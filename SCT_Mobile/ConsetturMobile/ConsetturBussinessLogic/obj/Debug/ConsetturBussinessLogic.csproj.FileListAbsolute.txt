@@ -58,3 +58,15 @@ C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessLogic\bin\De
 C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessLogic\obj\Debug\ResolveAssemblyReference.cache
 C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessLogic\obj\Debug\ConsetturBussinessLogic.dll
 C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessLogic\obj\Debug\ConsetturBussinessLogic.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessLogic\bin\Debug\ConsetturBussinessLogic.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessLogic\bin\Debug\ConsetturBussinessLogic.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessLogic\bin\Debug\ConsetturBussinessDataAccess.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessLogic\bin\Debug\ConsetturBussinessEntity.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessLogic\bin\Debug\ConsetturCompartido.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessLogic\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessLogic\bin\Debug\ConsetturCompartido.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessLogic\bin\Debug\ConsetturBussinessDataAccess.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessLogic\bin\Debug\ConsetturBussinessEntity.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessLogic\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessLogic\obj\Debug\ConsetturBussinessLogic.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessLogic\obj\Debug\ConsetturBussinessLogic.pdb

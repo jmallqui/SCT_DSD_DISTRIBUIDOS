@@ -48,3 +48,13 @@ C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessDataAccess\b
 C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ResolveAssemblyReference.cache
 C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ConsetturBussinessDataAccess.dll
 C:\Bagner\Codigo fuente\Consettur\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ConsetturBussinessDataAccess.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessDataAccess.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessDataAccess.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessEntity.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturCompartido.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturCompartido.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessDataAccess\bin\Debug\ConsetturBussinessEntity.pdb
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ConsetturBussinessDataAccess.dll
+C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SCT_Mobile\ConsetturMobile\ConsetturBussinessDataAccess\obj\Debug\ConsetturBussinessDataAccess.pdb
